@@ -7,6 +7,7 @@ import Section from "./section";
 import HowItWorks from './HowItWorks';
 import Testi from './Testi';
 import Pricing from './Pricing';
+import PricingAndPayment from "./pricing-and-payment";
 import Faq from './Faq';
 
 class IndexMain extends Component {
@@ -55,10 +56,10 @@ class IndexMain extends Component {
                 <HowItWorks />
 
                 {/* Testi */}
-            
+
 
                 {/* Pricing */}
-                <Pricing />
+                <PricingAndPayment />
                 <div className="position-relative">
                     <div className="shape overflow-hidden text-light">
                         <svg viewBox="0 0 2880 250" fill="none" xmlns="http://www.w3.org/2000/svg">
