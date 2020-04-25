@@ -64,7 +64,7 @@ class Footer extends Component {
                         <Row>
 
                             <Col lg="8">
-                                <Link to="./page-job" className="btn btn-primary rounded w-100">Start Staking<i className="mdi mdi-chevron-right"></i></Link>
+                                <Link to="./page-job" className="btn btn-primary rounded w-100">Stake</Link>
                             </Col>
                         </Row>
                     </Col>
