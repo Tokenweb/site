@@ -10,17 +10,17 @@ class Footer extends Component {
     super(props);
     this.state = {
         grid1 : [
-            { title : "Stake", link : "/page-aboutus" },
-            { title : "Buy Crypto (Coming Soon)", link : "/page-team" },
-            { title : "Investment Funds", link : "/page-services" },
+            { title : "Stake", link : "./page-job" },
+            { title : "Buy Crypto (Coming Soon)", link : "#" },
+            { title : "Investment Funds", link : "./index" },
 
 
 
         ],
         grid2 : [
-            { title : "Blog", link : "/page-terms" },
-            { title : "Tutorial", link : "/page-privacy" },
-            { title : "Documentation", link : "/documentation" },
+            { title : "Blog (Coming Soon)", link : "#" },
+            { title : "Tutorial (Coming Soon)", link : "#" },
+            { title : "Documentation (Coming Soon)", link : "#" },
 
 
 
@@ -63,8 +63,8 @@ class Footer extends Component {
                         <p className={ this.props.isLight ? "mt-4 text-muted" : "mt-4"}>Our mission is to make complex crypto products simple to understand and available for everyone.</p>
                         <Row>
 
-                            <Col lg="6">
-                                <Input type="submit" id="submitsubscribe" name="send" className="btn btn-primary rounded w-100" value="Stake"/>
+                            <Col lg="8">
+                                <Link to="./page-job" className="btn btn-primary rounded w-100">Start Staking<i className="mdi mdi-chevron-right"></i></Link>
                             </Col>
                         </Row>
                     </Col>
