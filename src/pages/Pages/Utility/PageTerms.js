@@ -66,7 +66,7 @@ class PageTerms extends Component {
                                             <Card className="border rounded shadow mb-2">
                                                 <Link to="#" className={ this.state.t1 ? "faq position-relative text-primary" : "faq position-relative text-dark" } onClick={() => this.setState({ t1: !this.state.t1,t2: false,t3: false,t4: false,t5: false  })}>
                                                     <div className="card-header bg-light p-3" id="headingOne">
-                                                        <h4 className="title mb-0 faq-question"> Dummy text is text that is used in the publishing industry ? </h4>
+                                                        <h4 className="title mb-0 faq-question"> How is staking taxed? </h4>
                                                     </div>
                                                 </Link>
                                                 <Collapse isOpen={this.state.t1}>
@@ -79,7 +79,7 @@ class PageTerms extends Component {
                                             <Card className="border rounded shadow mb-2">
                                                 <Link to="#" className={ this.state.t2 ? "faq position-relative text-primary" : "faq position-relative text-dark" } onClick={() => this.setState({ t2: !this.state.t2,t1: false,t3: false,t4: false,t5: false  })}>
                                                     <div className="card-header bg-light p-3" id="headingOne">
-                                                        <h4 className="title mb-0 faq-question"> Web designers to occupy the space which will later be filled ? </h4>
+                                                        <h4 className="title mb-0 faq-question"> Do you have control of my crypto when I stake with you?</h4>
                                                     </div>
                                                 </Link>
                                                 <Collapse isOpen={this.state.t2}>
@@ -93,12 +93,12 @@ class PageTerms extends Component {
                                             <Card className="border rounded shadow mb-2">
                                                 <Link to="#" className={ this.state.t3 ? "faq position-relative text-primary" : "faq position-relative text-dark" } onClick={() => this.setState({ t3: !this.state.t3,t1: false,t2: false,t4: false,t5: false  })}>
                                                     <div className="card-header bg-light p-3" id="headingOne">
-                                                        <h4 className="title mb-0 faq-question"> This is required when, for example, the final text is not yet available ? </h4>
+                                                        <h4 className="title mb-0 faq-question"> Can I withdraw my staked coins at any time?  </h4>
                                                     </div>
                                                 </Link>
                                                 <Collapse isOpen={this.state.t3}>
                                                     <CardBody>
-                                                        <p className="text-muted mb-0 faq-ans">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                                                        <p className="text-muted mb-0 faq-ans">Yes anytime, however some networks have a minimum lock-up period, which means it could be up to a certain amount of days before the coins are back in your wallet.</p>
                                                     </CardBody>
                                                 </Collapse>
                                             </Card>
@@ -106,7 +106,7 @@ class PageTerms extends Component {
                                             <Card className="border rounded shadow mb-2">
                                                 <Link to="#" className={ this.state.t4 ? "faq position-relative text-primary" : "faq position-relative text-dark" } onClick={() => this.setState({ t4: !this.state.t4,t1: false,t3: false,t2: false,t5: false  })}>
                                                     <div className="card-header bg-light p-3" id="headingOne">
-                                                        <h4 className="title mb-0 faq-question"> The most well-known dummy text is the 'Lorem Ipsum', which is said ? </h4>
+                                                        <h4 className="title mb-0 faq-question"> What is unbonding? </h4>
                                                     </div>
                                                 </Link>
                                                 <Collapse isOpen={this.state.t4}>
@@ -119,12 +119,25 @@ class PageTerms extends Component {
                                             <Card className="border rounded shadow mb-2">
                                                 <Link to="#" className={ this.state.t5 ? "faq position-relative text-primary" : "faq position-relative text-dark" } onClick={() => this.setState({ t5: !this.state.t5, t1:false, t2:false, t3:false, t4:false })}>
                                                     <div className="card-header bg-light p-3" id="headingOne">
-                                                        <h4 className="title mb-0 faq-question">  Lorem Ipsum is composed in a pseudo-Latin language ? </h4>
+                                                        <h4 className="title mb-0 faq-question">  Why do I need a hardware wallet? </h4>
                                                     </div>
                                                 </Link>
                                                 <Collapse isOpen={this.state.t5}>
                                                     <CardBody>
                                                         <p className="text-muted mb-0 faq-ans">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                                                    </CardBody>
+                                                </Collapse>
+                                            </Card>
+
+                                            <Card className="border rounded shadow mb-2">
+                                                <Link to="#" className={ this.state.t4 ? "faq position-relative text-primary" : "faq position-relative text-dark" } onClick={() => this.setState({ t4: !this.state.t4,t1: false,t3: false,t2: false,t5: false  })}>
+                                                    <div className="card-header bg-light p-3" id="headingOne">
+                                                        <h4 className="title mb-0 faq-question"> Can I stake any cryptocurrency?</h4>
+                                                    </div>
+                                                </Link>
+                                                <Collapse isOpen={this.state.t4}>
+                                                    <CardBody>
+                                                        <p className="text-muted mb-0 faq-ans">No, only certain blockchains are secured by Proof of Stake. These are the only cryptocurrencies you will be able to stake.</p>
                                                     </CardBody>
                                                 </Collapse>
                                             </Card>
@@ -137,7 +150,7 @@ class PageTerms extends Component {
                                     <h5>Common Terms</h5>
 
                                     <ul className="list-unstyled feature-list text-muted">
-                                        <li><i className="mdi mdi-pan-right mdi-24px mr-2"></i>Crypto/Cryptocurrency</li>
+                                        <li><i className="mdi mdi-pan-right mdi-24px mr-2"></i>Crypto/Cryptocurrency = add definition</li>
                                         <li><i className="mdi mdi-pan-right mdi-24px mr-2"></i>Staking</li>
                                         <li><i className="mdi mdi-pan-right mdi-24px mr-2"></i>Bonding</li>
                                         <li><i className="mdi mdi-pan-right mdi-24px mr-2"></i>Proof of Stake</li>
@@ -148,10 +161,7 @@ class PageTerms extends Component {
 
                                     </ul>
 
-                                    <div className="mt-3">
-                                        <Link to="#" className="btn btn-primary mt-2 mr-2">Accept</Link>
-                                        <Link to="#" className="btn btn-outline-primary mt-2">Decline</Link>
-                                    </div>
+                                  
                                 </div>
                             </Col>
                         </Row>
