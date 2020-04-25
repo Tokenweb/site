@@ -10,14 +10,14 @@ class Topbar extends Component {
         this.state = {
             isOpen : false,
             navLinks : [
-                { id : 1, title : "Stake", link : "/index" },
+                { id : 1, title : "Stake", link : "./page-job" },
                 { id : 2, title : "Invest", link : "/#",
 
                  isOpenSubMenu : false,
                     child : [
-                        { title : "Buy Crypto (Coming Soon)", link : "/index-saas" },
+                        { title : "Buy Crypto (Coming Soon)", link : "#"  },
 
-                        { title : "Explore Funds", link : "/index-agency" },
+                        { title : "Explore Funds", link : "/index" },
 
                     ],
                     },
@@ -40,10 +40,10 @@ class Topbar extends Component {
                 { id : 3, title : "Learn", link : "/#", isOpenSubMenu : false,
                     child : [
 
-                        { id : 1, title : "Blog", link : "/page-aboutus"},
-                        { id : 2, title : "Tutorials", link : "page-services"},
-                        { id : 3, title : "Documentation", link : "/page-pricing"},
-                        { id : 4, title : "Frequently Asked Questions", link : "/page-team"},
+                        { id : 1, title : "Blog (Coming Soon)", link : "#" },
+                        { id : 2, title : "Tutorials (Coming Soon)", link : "#" },
+                        { id : 3, title : "Documentation (Coming Soon)", link : "#" },
+                        { id : 4, title : "Frequently Asked Questions", link : "./page-terms"},
 
                         // { id : 5, title : "Account", link : "/#", isOpenNestedSubMenu : false,
                         //     nestedChild : [
@@ -197,10 +197,10 @@ class Topbar extends Component {
                 <header id="topnav" className="defaultscroll sticky">
                     <Container>
                         <div>
-                            <Link className="logo" to="/index">TokenWeb</Link>
+                            <Link className="logo" to="/index-saas">TokenWeb</Link>
                         </div>
                         <div className="buy-button">
-                            <Link to="#" id="buyButton" className="btn btn-primary">Stake Now!</Link>
+                            <Link to="./page-job" id="buyButton" className="btn btn-primary">Stake Now!</Link>
                         </div>
                         <div className="menu-extras">
                             <div className="menu-item">

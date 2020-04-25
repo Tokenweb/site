@@ -54,7 +54,7 @@ class Start extends Component {
                                 <div className="section-title mr-lg-5">
                                 <SectionTitleLeft
                                     title="Who are we?"
-                                    desc="TokenWeb was founded by individuals who have been in crypto for many years and want to help spread it to a wider audience by making crypto much easier to understand and use. "
+                                    desc="Headquartered in Ireland, TokenWeb was founded by individuals who have been in crypto for many years and want to help spread it to a wider audience by making crypto much easier to understand and use."
                                     features={this.state.features2}
                                     class = "h4 mr-2"
                                     />

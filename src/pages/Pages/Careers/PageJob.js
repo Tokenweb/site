@@ -8,6 +8,7 @@ import StarRatings from 'react-star-ratings';
 //Import components
 
 
+
 //Import Images
 import full from "../../../images/job/full.jpg";
 import circleci from "../../../images/job/Circleci.svg";
