@@ -11,14 +11,14 @@ class Partners extends Component {
         return (
             <React.Fragment>
                         <Row className="justify-content-center" id="partners">
-                            <Col id="partner1" lg="4" md="4" xs="6" className="text-center">
+                            <Col id="partner1" lg="4" md="4" xs="6" className="text-center partnerLogo">
                                 <img src={img1} className="avatar" alt=""/>
                             </Col>
 
-                            <Col id="partner2" lg="4" md="4" xs="6" className="text-center">
+                            <Col id="partner2" lg="4" md="4" xs="6" className="text-center partnerLogo">
                                 <img src={img2} className="avatar" alt=""/>
                             </Col>
-                            <Col id="partner3" lg="4" md="4" xs="6" className="text-center">
+                            <Col id="partner3" lg="4" md="4" xs="6" className="text-center partnerLogo">
                                 <img src={img3} className="avatar" alt=""/>
                             </Col>
 
