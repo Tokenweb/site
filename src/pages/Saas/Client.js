@@ -30,7 +30,7 @@ class Client extends Component {
                                     <p className="text-muted para-desc mx-auto mb-0">We keep you up to date with key industry updates and any new tools available to make money passively with your tokens.</p>
 
                                     <div className="mt-3">
-                                        <Link to="#" className="btn btn-primary mt-2 mr-2">Make this a newsletter input</Link>
+                                        <Link to="#" className="btn btn-primary mt-2 mr-2">[Coming Soon]</Link>
 
                                     </div>
                                 </div>
