@@ -20,7 +20,10 @@ class PageTerms extends Component {
             t1 : true,
             t2 : false,
             t3 : false,
-            t4 : false
+            t4 : false,
+            t5 : false,
+            t6 : false
+
         }
     }
 
@@ -130,12 +133,12 @@ class PageTerms extends Component {
                                             </Card>
 
                                             <Card className="border rounded shadow mb-2">
-                                                <Link to="#" className={ this.state.t4 ? "faq position-relative text-primary" : "faq position-relative text-dark" } onClick={() => this.setState({ t4: !this.state.t4,t1: false,t3: false,t2: false,t5: false  })}>
+                                                <Link to="#" className={ this.state.t6 ? "faq position-relative text-primary" : "faq position-relative text-dark" } onClick={() => this.setState({ t6: !this.state.t6,t1: false,t3: false,t2: false,t5: false,t4: false  })}>
                                                     <div className="card-header bg-light p-3" id="headingOne">
                                                         <h4 className="title mb-0 faq-question"> Can I stake any cryptocurrency?</h4>
                                                     </div>
                                                 </Link>
-                                                <Collapse isOpen={this.state.t4}>
+                                                <Collapse isOpen={this.state.t6}>
                                                     <CardBody>
                                                         <p className="text-muted mb-0 faq-ans">No, only certain blockchains are secured by Proof of Stake. These are the only cryptocurrencies you will be able to stake.</p>
                                                     </CardBody>
@@ -161,7 +164,7 @@ class PageTerms extends Component {
 
                                     </ul>
 
-                                  
+
                                 </div>
                             </Col>
                         </Row>
