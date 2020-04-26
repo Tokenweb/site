@@ -16,10 +16,7 @@ class PageJobDetail extends Component {
         this.state = {
             pathItems : [
                 //id must required
-                { id : 1, name : "Home", link : "/index" },
-                { id : 2, name : "Pages", link : "#" },
-                { id : 3, name : "CAREERS", link : "#" },
-                { id : 4, name : "Job Detail" },
+
             ],
         }
     }
@@ -49,20 +46,11 @@ class PageJobDetail extends Component {
                 {/* breadcrumb */}
                 <PageBreadcrumb pathItems = {this.state.pathItems}>
                     <img src={logo} className="avatar avatar-small" alt=""/>
-                    <h4 className="title mt-4 mb-3"> Back-End Developer </h4>
-                    <p className="para-desc mx-auto text-muted">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</p>
-                        <ul className="list-unstyled">
-                            <li className="list-inline-item text-primary mr-3"><i className="mdi mdi-map-marker text-warning mr-2"></i>Beijing, China</li>
-                            <li className="list-inline-item text-primary"><i className="mdi mdi-office-building text-warning mr-2"></i>Gradle</li>
-                        </ul>
+                    <h4 className="title mt-4 mb-3">Cosmos Staking</h4>
+                    <p className="para-desc mx-auto text-muted">Cosmos Project Description. Short Paragraph.</p>
+
                 </PageBreadcrumb>
-                <div className="position-relative">
-                    <div className="shape overflow-hidden text-white">
-                        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
-                        </svg>
-                    </div>
-                </div>
+
 
                 <section className="section">
                     <Container>
@@ -70,70 +58,54 @@ class PageJobDetail extends Component {
                             <Col lg="4" md="5" xs="12">
                                 <div className="sidebar rounded shadow">
                                     <div className="widget border-bottom p-4">
-                                        <h5 className="mb-0">Job Information</h5>
+                                        <h5 className="mb-0">Key Information</h5>
                                     </div>
-            
+
                                     <div className="p-4">
                                         <div className="widget">
                                             <i className="mdi mdi-account-check mdi-24px float-left mr-3"></i>
                                             <div className="overflow-hidden d-block">
-                                                <h4 className="widget-title mb-0">Employee Type:</h4>
-                                                <p className="text-primary">Full Time</p>
+                                                <h4 className="widget-title mb-0">Project Website</h4>
+                                                <p className="text-primary">https://cosmos.network</p>
                                             </div>
                                         </div>
                                         <div className="widget">
                                             <i className="mdi mdi-map-marker mdi-24px float-left mr-3"></i>
                                             <div className="overflow-hidden d-block">
-                                                <h4 className="widget-title mb-0">Location:</h4>
-                                                <p className="text-primary">Beijing, China</p>
+                                                <h4 className="widget-title mb-0">Token Name</h4>
+                                                <p className="text-primary">ATOM</p>
                                             </div>
                                         </div>
                                         <div className="widget">
                                             <i className="mdi mdi-monitor mdi-24px float-left mr-3"></i>
                                             <div className="overflow-hidden d-block">
-                                                <h4 className="widget-title mb-0">Job Type:</h4>
-                                                <p className="text-primary">Back-end Developer</p>
+                                                <h4 className="widget-title mb-0">Staking Reward</h4>
+                                                <p className="text-primary">~8.74% Annually</p>
                                             </div>
                                         </div>
                                         <div className="widget">
                                             <i className="mdi mdi-briefcase-outline mdi-24px float-left mr-3"></i>
                                             <div className="overflow-hidden d-block">
-                                                <h4 className="widget-title mb-0">Experience:</h4>
-                                                <p className="text-primary">+2 Year</p>
+                                                <h4 className="widget-title mb-0">Unbonding Period</h4>
+                                                <p className="text-primary">21 Days</p>
                                             </div>
                                         </div>
-                                        <div className="widget">
-                                            <i className="mdi mdi-school mdi-24px float-left mr-3"></i>
-                                            <div className="overflow-hidden d-block">
-                                                <h4 className="widget-title mb-0">Qualifications:</h4>
-                                                <p className="text-primary">MSCIT</p>
-                                            </div>
-                                        </div>
-                                        <div className="widget">
-                                            <i className="mdi mdi-currency-usd mdi-24px float-left mr-3"></i>
-                                            <div className="overflow-hidden d-block">
-                                                <h4 className="widget-title mb-0">Salary:</h4>
-                                                <p className="text-primary">+50k to 70k</p>
-                                            </div>
-                                        </div>
-                                        <div className="widget">
-                                            <i className="mdi mdi-clock-outline mdi-24px float-left mr-3"></i>
-                                            <div className="overflow-hidden d-block">
-                                                <h4 className="widget-title mb-0">Date posted:</h4>
-                                                <p className="text-primary mb-0">5th Sep, 2019</p>
-                                            </div>
-                                        </div>
+
+                    
+
+
+
                                     </div>
                                 </div>
                             </Col>
-            
+
                             <Col lg="8" md="7" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="ml-lg-4">
                                     <h5>Job Description: </h5>
                                     <p className="text-muted">One disadvantage of Lorum Ipsum is that in Latin certain letters appear more frequently than others - which creates a distinct visual impression. Moreover, in Latin only words at the beginning of sentences are capitalized.</p>
                                     <p className="text-muted">This means that Lorem Ipsum cannot accurately represent, for example, German, in which all nouns are capitalized. Thus, Lorem Ipsum has only limited suitability as a visual filler for German texts. If the fill text is intended to illustrate the characteristics of different typefaces.</p>
                                     <p className="text-muted">It sometimes makes sense to select texts containing the various letters and symbols specific to the output language.</p>
-                                    
+
                                     <h5 className="mt-4">Responsibilities and Duties: </h5>
                                     <p className="text-muted">It sometimes makes sense to select texts containing the various letters and symbols specific to the output language.</p>
                                     <ul className="list-unstyled">
