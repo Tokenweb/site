@@ -19,7 +19,7 @@ class Footer extends Component {
         ],
         grid2 : [
             { title : "Blog (Coming Soon)", link : "#" },
-            { title : "Tutorial (Coming Soon)", link : "#" },
+            { title : "Tutorials (Coming Soon)", link : "#" },
             { title : "Frequently Asked Questions", link : "./page-terms" },
 
 
