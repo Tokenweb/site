@@ -11,9 +11,9 @@ import StarRatings from 'react-star-ratings';
 
 //Import Images
 import full from "../../../images/job/full.jpg";
-import circleci from "../../../images/job/Circleci.svg";
-import Codepen from "../../../images/job/Codepen.svg";
-import Discord from "../../../images/job/Discord.svg";
+import Kava from "../../../images/job/kava.svg";
+import Cosmos from "../../../images/job/cosmos.svg";
+import EthereumGold from "../../../images/job/ethereum-gold.svg";
 import Eslint from "../../../images/job/Eslint.svg";
 import Gitlab from "../../../images/job/Gitlab.svg";
 import Gradle from "../../../images/job/Gradle.svg";
@@ -22,6 +22,7 @@ import Sketch from "../../../images/job/Sketch.svg";
 import Twilio from "../../../images/job/Twilio.svg";
 import Udemy from "../../../images/job/Udemy.svg";
 import Webhooks from "../../../images/job/Webhooks.svg";
+
 
 
 
@@ -35,10 +36,10 @@ class PageJob extends Component {
 
             ],
             jobs : [
-                { id : 1, image : full, title : "Cosmos", time : "Active", cmpImage : circleci, cmpName : "Cosmos", Annual  : "2 Year", reward : "7.5%", field : "Information strategy" },
-                { id : 2, image : full, title : "Kava", time : "Active", cmpImage : Codepen, cmpName : "Kava", Experience : "2 Year", workingHrs : "6hr", field : "Information strategy" },
-                { id : 3, image : full, title : "Ethereum", time : "Coming Soon", cmpImage : Discord, cmpName : "Ethereum", Experience : "2 Year", workingHrs : "6hr", field : "Information strategy" },
-                  { id : 4, image : full, title : "Polkadot", time : "Coming Soon", cmpImage : Discord, cmpName : "Polkadot", Experience : "2 Year", workingHrs : "6hr", field : "Information strategy" },
+                { id : 1, image : full, title : "Cosmos", time : "Active", cmpImage : Cosmos, cmpName : "Cosmos", Annual  : "2 Year", reward : "8.74%", field : "Information strategy" },
+                { id : 2, image : full, title : "Kava", time : "Active", cmpImage : Kava, cmpName : "Kava", Experience : "2 Year", workingHrs : "6hr", field : "Information strategy" },
+                { id : 3, image : full, title : "Ethereum", time : "Coming Soon", cmpImage : EthereumGold, cmpName : "Ethereum", Experience : "2 Year", workingHrs : "6hr", field : "Information strategy" },
+                
 
             ]
         }
