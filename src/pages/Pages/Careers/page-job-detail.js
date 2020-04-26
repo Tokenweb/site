@@ -104,58 +104,55 @@ class PageJobDetail extends Component {
                                 <div className="ml-lg-4">
                                     <h5>Required Items to Get Started</h5>
                                     <p className="text-muted">Ledger Nano, ATOMs, Computer</p>
-                                    <p className="text-muted">Completely new to staking and are confused? Check out this introductory guide before proceeding.</p>
+                                    <p className="text-muted">Completely new to staking and are confused? Check out this introductory guide before proceeding. [Link Here to Blog]</p>
 
 
                                     <h5 className="mt-4">Setting up Ledger Nano</h5>
                                     <p className="text-muted">If your ATOMs are already on your Ledger Wallet please skip this step. </p>
                                     <ul className="list-unstyled">
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Participate in requirements analysis</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Write clean, scalable code using C# and .NET frameworks</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Test and deploy applications and systems</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Revise, update, refactor and debug code</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Improve existing software</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Develop documentation throughout the software development life cycle (SDLC)</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Serve as an expert on applications and provide technical support</li>
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Once you receive your new Ledger Hardware Wallet, plug it into your computer and follow the set up instructions on the device.</li>
+<br />
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>It is extremely important to write down your seed phrase and place in a secure location. If your device is ever lost or broken, entering the seed phrase in a new wallet is the ONLY way to recover your tokens. </li>
+<br />
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Next, On your computer download Ledger Live. This is the program you will use to manage and interact with your Hardware Wallet.</li>
+<br />
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Once installed and your Ledger Nano is connected it is time to Download the Cosmos App. If the App does not appear in the search, then go to settings -- selet "experimental features" -- activate developer mode. Then the Cosmos application will show up for you to install.</li>
+
+
                                     </ul>
 
                                     <h5 className="mt-4">Connecting to Web Wallet</h5>
                                     <p className="text-muted">If you are already familiar with using web wallets with your Ledger Wallet, please skip this step. We recommend the Lunie.io web wallet, but any alternative you are comfortable with is fine. </p>
                                     <ul className="list-unstyled">
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Proven experience as a .NET Developer or Application Developer</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>good understanding of SQL and Relational Databases, specifically Microsoft SQL Server.</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Experience designing, developing and creating RESTful web services and APIs</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Basic know how of Agile process and practices</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Good understanding of object-oriented programming.</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Good understanding of concurrent programming.</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Sound knowledge of application architecture and design.</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Excellent problem solving and analytical skills</li>
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Now you are ready to send your ATOMs to your wallet. To do so go to Lunie.io (a web wallet we recommend using) and connect to it with your Ledger Device.</li>
+<br />
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>From the Lunie Dashboard you should see your Cosmos wallet address and be able to copy it. Send your tokens to this address and they will now be stored on your Ledger Wallet.</li>
+
                                     </ul>
 
                                     <h5 className="mt-4">Staking your Tokens</h5>
-                                    <p className="text-muted">If you are already familiar with using web wallets with your Ledger Wallet, please skip this step. We recommend the Lunie.io web wallet, but any alternative you are comfortable with is fine. </p>
+                                    <p className="text-muted"></p>
                                     <ul className="list-unstyled">
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Proven experience as a .NET Developer or Application Developer</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>good understanding of SQL and Relational Databases, specifically Microsoft SQL Server.</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Experience designing, developing and creating RESTful web services and APIs</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Basic know how of Agile process and practices</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Good understanding of object-oriented programming.</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Good understanding of concurrent programming.</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Sound knowledge of application architecture and design.</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Excellent problem solving and analytical skills</li>
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Once you have tokens in your available balance on Lunie.io, you are ready to begin staking!</li>
+<br />
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Go to Validators and type in tokenweb.io and choose "stake."</li>
+<br />
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Choose Max amount and then subtract 1 from that number. It is important to leave a small amount of ATOM in your wallet to pay for transaction fees. If you try to stake your max amount without subtracting 1 ATOM then you should see a warning message about this.</li>
+<br />
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Once you confirm the staking transaction on your Ledger you will see a message on Lunie that you have successfully staked your tokens!</li>
+
+
                                     </ul>
 
                                     <h5 className="mt-4">Receiving Rewards</h5>
-                                    <p className="text-muted">If you are already familiar with using web wallets with your Ledger Wallet, please skip this step. We recommend the Lunie.io web wallet, but any alternative you are comfortable with is fine. </p>
+                                    <p className="text-muted"></p>
                                     <ul className="list-unstyled">
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Proven experience as a .NET Developer or Application Developer</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>good understanding of SQL and Relational Databases, specifically Microsoft SQL Server.</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Experience designing, developing and creating RESTful web services and APIs</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Basic know how of Agile process and practices</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Good understanding of object-oriented programming.</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Good understanding of concurrent programming.</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Sound knowledge of application architecture and design.</li>
-                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Excellent problem solving and analytical skills</li>
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Rewards are credited to your account in real time every few seconds.</li>
+<br />
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Currently, there is no option to automatically re-stake your rewards. To receive your rewards and restake them you must choose the claim rewards button on Lunie.io and then you will see the tokens in your available balance. Now you can click on the TokenWeb Validator, choose stake, and re-stake these tokens to benefit from compounded rewards. </li>
+<br />
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>It is important to note that even though you may see your account on Lunie, you will not be able to interact with it and stake, withdraw, claim rewards, etc. without your Ledger Device connected to your computer because every transaction must be confirmed on the device.</li>
+
                                     </ul>
 
                                     <div className="mt-4">
