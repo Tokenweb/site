@@ -21,7 +21,7 @@ class PricingAndPayment extends Component {
     render() {
         return (
             <React.Fragment>
-                <Container className="mt-100 mt-60">
+                <Container className="mt-100 mt-60 fundBlocks">
                     {/* Render Section Title */}
                     <SectionTitle title="Our Funds" desc="Our investment products are great for everyone. We have something for every size of risk and goals." />
 
@@ -35,7 +35,7 @@ class PricingAndPayment extends Component {
                                 <div className="p-4">
                                     <div className="d-flex justify-content-center mb-4">
 
-                                        <span className="h6 align-self-end mb-2 ml-2">Invests in token projects with established history.</span>
+                                        <span className="h6 align-self-end mb-2 ml-2">Invests in token projects with established history</span>
                                     </div>
 
                                     <ul className="feature list-inline">
@@ -84,7 +84,7 @@ class PricingAndPayment extends Component {
                                 <div className="p-4">
                                     <div className="d-flex justify-content-center mb-4">
 
-                                        <span className="h6 align-self-end mb-2 ml-2">Invests in projects which support token growth.</span>
+                                        <span className="h6 align-self-end mb-2 ml-2">Invests in projects which support token growth</span>
                                     </div>
 
                                     <ul className="feature list-inline">
