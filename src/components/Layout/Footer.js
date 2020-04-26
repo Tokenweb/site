@@ -47,7 +47,7 @@ class Footer extends Component {
                         </ul>
                     </Col>
 
-                    <Col lg="4" md="4" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
+                    <Col lg="4" md="4" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0 leanfoot" name="footercolumn">
                         <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Learning Center</h4>
                         <ul className="list-unstyled footer-list mt-4">
                             {
@@ -59,7 +59,7 @@ class Footer extends Component {
                     </Col>
 
                     <Col lg="4" xs="12" className="mb-0 mb-md-4 pb-0 pb-md-2" name="footercolumn">
-                        <Link className={this.props.isLight ? "logo-footer text-dark" : "logo-footer"} to="#">TokenWeb</Link>
+                        <Link className={this.props.isLight ? "logo-footer text-dark" : "logo-footer"} to="/">TokenWeb</Link>
                         <p className={ this.props.isLight ? "mt-4 text-muted" : "mt-4"}>Our mission is to make complex crypto products simple to understand and available for everyone.</p>
                         <Row>
 
