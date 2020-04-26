@@ -42,7 +42,7 @@ class Start extends Component {
                                         features={this.state.features}
                                         class = "h4 mr-2"
                                         />
-                                    <Link to="./page-job" className="mt-3 text-primary">Start staking now<i className="mdi mdi-chevron-right"></i></Link>
+                                    <Link to="/page-job" className="mt-3 text-primary">Start staking now<i className="mdi mdi-chevron-right"></i></Link>
                                 </div>
                             </Col>
                         </Row>

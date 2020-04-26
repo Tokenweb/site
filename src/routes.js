@@ -119,7 +119,7 @@ const routes = [
     { path: '/index-car-riding', component: IndexCarRiding },
     { path: '/index-classic-saas', component: IndexclassicSaas },
     { path: '/index-classic-app', component: ClassicApp },
-    { path: '/', component: Saas },
+    { path: '/index-saas', component: Saas },
     { path: '/index-apps', component: Apps },
     { path: '/index-agency', component: Agency },
     { path: '/index-studio', component: Studio },

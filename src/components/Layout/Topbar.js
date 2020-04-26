@@ -10,7 +10,7 @@ class Topbar extends Component {
         this.state = {
             isOpen : false,
             navLinks : [
-                { id : 1, title : "Stake", link : "./page-job" },
+                { id : 1, title : "Stake", link : "/page-job" },
                 { id : 2, title : "Invest", link : "/#",
 
                  isOpenSubMenu : false,
