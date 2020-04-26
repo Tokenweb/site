@@ -143,7 +143,7 @@ const routes = [
     { path: '/page-team', component: PageTeam },
 
     //Utility
-    { path: '/page-terms', component: PageTerms },
+    { path: '/faq', component: PageTerms },
     { path: '/page-privacy', component: PagePrivacy },
 
     //Page Work

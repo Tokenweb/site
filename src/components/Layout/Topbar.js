@@ -43,7 +43,7 @@ class Topbar extends Component {
                         { id : 1, title : "Blog (Coming Soon)", link : "#" },
                         { id : 2, title : "Tutorials (Coming Soon)", link : "#" },
 
-                        { id : 3, title : "Frequently Asked Questions", link : "./page-terms"},
+                        { id : 3, title : "Frequently Asked Questions", link : "./faq"},
 
                         // { id : 5, title : "Account", link : "/#", isOpenNestedSubMenu : false,
                         //     nestedChild : [
