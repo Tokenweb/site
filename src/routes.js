@@ -158,7 +158,7 @@ const routes = [
     //Page Job
     { path: '/staking-portal', component: PageJob },
     { path: '/page-job-apply', component: PageJobApply },
-    { path: '/page-job-detail', component: PageJobDetail },
+    { path: '/cosmos-staking', component: PageJobDetail },
     { path: '/page-jobs-sidebar', component: PageJobsSidebar },
     { path: '/page-job-company', component: PageJobCompany },
     { path: '/page-job-candidate', component: PageJobCandidate },

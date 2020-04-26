@@ -119,7 +119,7 @@ class PageJob extends Component {
                                                     <li className="list-inline-item text-muted"><i className="mdi mdi-check text-success mr-1"></i> Annual Reward ~ {job.reward}</li>
 
                                                 </ul>
-                                                <Link to="/page-job-detail" className="btn btn-outline-primary btn-block">Stake Now</Link>
+                                                <Link to="/cosmos-staking" className="btn btn-outline-primary btn-block">Stake Now</Link>
                                             </div>
                                         </div>
                                     </Col>
