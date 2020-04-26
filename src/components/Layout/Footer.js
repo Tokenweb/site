@@ -10,7 +10,7 @@ class Footer extends Component {
     super(props);
     this.state = {
         grid1 : [
-            { title : "Stake", link : "./page-job" },
+            { title : "Stake", link : "./staking-portal" },
             { title : "Buy Crypto (Coming Soon)", link : "#" },
             { title : "Investment Funds", link : "./Funds" },
 
@@ -64,7 +64,7 @@ class Footer extends Component {
                         <Row>
 
                             <Col lg="8">
-                                <Link to="./page-job" className="btn btn-primary rounded w-100">Stake</Link>
+                                <Link to="./staking-portal" className="btn btn-primary rounded w-100">Stake</Link>
                             </Col>
                         </Row>
                     </Col>

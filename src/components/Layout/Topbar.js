@@ -10,7 +10,7 @@ class Topbar extends Component {
         this.state = {
             isOpen : false,
             navLinks : [
-                { id : 1, title : "Stake", link : "/page-job" },
+                { id : 1, title : "Stake", link : "/staking-portal" },
                 { id : 2, title : "Invest", link : "#",
 
                  isOpenSubMenu : false,
@@ -200,7 +200,7 @@ class Topbar extends Component {
                             <Link className="logo" to="/">TokenWeb</Link>
                         </div>
                         <div className="buy-button">
-                            <Link to="./page-job" id="buyButton" className="btn btn-primary">Stake Now!</Link>
+                            <Link to="./staking-portal" id="buyButton" className="btn btn-primary">Stake Now!</Link>
                         </div>
                         <div className="menu-extras">
                             <div className="menu-item">

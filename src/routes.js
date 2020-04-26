@@ -156,7 +156,7 @@ const routes = [
     { path: '/page-invoice', component: PageInvoice },
 
     //Page Job
-    { path: '/page-job', component: PageJob },
+    { path: '/staking-portal', component: PageJob },
     { path: '/page-job-apply', component: PageJobApply },
     { path: '/page-job-detail', component: PageJobDetail },
     { path: '/page-jobs-sidebar', component: PageJobsSidebar },
