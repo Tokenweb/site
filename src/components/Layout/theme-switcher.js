@@ -11,13 +11,13 @@ class ThemeSwitcher extends Component {
         }
         this.toggleSwitcher = this.toggleSwitcher.bind(this);
     }
-     
+
     toggleSwitcher = () => {
          this.setState({ isSwitchToggle : !this.state.isSwitchToggle });
         console.log(this.state.isSwitchToggle)
     }
     render() {
-        
+
         return (
             <React.Fragment>
                 <div id="style-switcher" style={{ left : this.state.isSwitchToggle ? "0px" : "-189px" }} className="bg-light border p-3 pt-2 pb-2">

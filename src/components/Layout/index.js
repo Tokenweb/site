@@ -4,7 +4,7 @@ import { withRouter } from 'react-router-dom';
 import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 
 //Import Switcher
-import ThemeSwitcher from "./theme-switcher";
+
 
 // Layout Components
 const Topbar = React.lazy(() => import('./Topbar'));
@@ -37,7 +37,7 @@ class Layout extends Component {
           :
           <Topbar />
         }
-        
+
         {this.props.children}
         {(() => {
           if (this.props.location.pathname === "/index-marketing" || this.props.location.pathname === "/index-modern-business" || this.props.location.pathname === "/index-services" || this.props.location.pathname === "/index-job") {
@@ -60,7 +60,7 @@ class Layout extends Component {
             )
           }
         })()}
-        <ThemeSwitcher/>
+        
         <div id="bottomIcon">
           {/* scrollup button */}
           <ScrollUpButton className="bottomIcon"/>
