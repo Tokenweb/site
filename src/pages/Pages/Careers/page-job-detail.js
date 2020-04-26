@@ -159,7 +159,7 @@ class PageJobDetail extends Component {
                                     </ul>
 
                                     <div className="mt-4">
-                                        <Link to="/page-job-apply" className="btn btn-outline-primary">Apply Now <i className="mdi mdi-send"></i></Link>
+                                        <Link to="#" className="btn btn-outline-primary">Need Help? <i className="mdi mdi-send"></i></Link>
                                     </div>
                                 </div>
                             </Col>
