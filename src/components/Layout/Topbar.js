@@ -197,7 +197,7 @@ class Topbar extends Component {
                 <header id="topnav" className="defaultscroll sticky">
                     <Container>
                         <div>
-                            <Link className="logo" to="/index-saas">TokenWeb</Link>
+                            <Link className="logo" to="/">TokenWeb</Link>
                         </div>
                         <div className="buy-button">
                             <Link to="./page-job" id="buyButton" className="btn btn-primary">Stake Now!</Link>
