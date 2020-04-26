@@ -11,13 +11,13 @@ class Topbar extends Component {
             isOpen : false,
             navLinks : [
                 { id : 1, title : "Stake", link : "/page-job" },
-                { id : 2, title : "Invest", link : "/#",
+                { id : 2, title : "Invest", link : "#",
 
                  isOpenSubMenu : false,
                     child : [
                         { title : "Buy Crypto (Coming Soon)", link : "#"  },
 
-                        { title : "Explore Funds", link : "/index" },
+                        { title : "Explore Funds", link : "/Funds" },
 
                     ],
                     },

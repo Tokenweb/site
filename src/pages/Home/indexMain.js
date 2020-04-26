@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { Container } from 'reactstrap';
 
 // Import Generic Components
-import Section from "./section";
+import Section from "./section2";
 import HowItWorks from './HowItWorks';
 import Testi from './Testi';
 import Pricing from './Pricing';
@@ -64,7 +64,7 @@ class IndexMain extends Component {
                 {/* Faq */}
                 <Faq />
 
-              
+
 
             </React.Fragment>
         );

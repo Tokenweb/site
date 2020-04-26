@@ -180,7 +180,7 @@ const routes = [
     { path: '/widget', component: Widget },
 
     //Index Main
-    { path: '/index', component: Main },
+    { path: '/Funds', component: Main },
 
     //Root
     { path: '/', component: Root, isWithoutLayout : true }

@@ -12,7 +12,7 @@ class Footer extends Component {
         grid1 : [
             { title : "Stake", link : "./page-job" },
             { title : "Buy Crypto (Coming Soon)", link : "#" },
-            { title : "Investment Funds", link : "./index" },
+            { title : "Investment Funds", link : "./Funds" },
 
 
 
