@@ -10,7 +10,7 @@ import StarRatings from 'react-star-ratings';
 
 
 //Import Images
-import full from "../../../images/job/full.jpg";
+import full from "../../../images/job/bg2.png";
 import Kava from "../../../images/job/kava.svg";
 import Cosmos from "../../../images/job/cosmos.svg";
 import EthereumGold from "../../../images/job/ethereum-gold.svg";
