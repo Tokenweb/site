@@ -37,9 +37,9 @@ class PageJob extends Component {
             ],
             jobs : [
                 { id : 1, image : full, title : "Cosmos", time : "Active", cmpImage : Cosmos, cmpName : "Cosmos", Annual  : "2 Year", reward : "8.74%", field : "Information strategy" },
-                { id : 2, image : full, title : "Kava", time : "Active", cmpImage : Kava, cmpName : "Kava", Experience : "2 Year", workingHrs : "6hr", field : "Information strategy" },
-                { id : 3, image : full, title : "Ethereum", time : "Coming Soon", cmpImage : EthereumGold, cmpName : "Ethereum", Experience : "2 Year", workingHrs : "6hr", field : "Information strategy" },
-                
+                { id : 2, image : full, title : "Kava", time : "Active", cmpImage : Kava, cmpName : "Kava", Experience : "2 Year", reward : "8.15%", field : "Information strategy" },
+                { id : 3, image : full, title : "Ethereum", time : "Coming Soon", cmpImage : EthereumGold, cmpName : "Ethereum", reward : "7.15%", workingHrs : "6hr", field : "Information strategy" },
+
 
             ]
         }
