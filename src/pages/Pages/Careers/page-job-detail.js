@@ -91,7 +91,8 @@ class PageJobDetail extends Component {
                                             </div>
                                         </div>
 
-                    
+
+
 
 
 
@@ -101,13 +102,13 @@ class PageJobDetail extends Component {
 
                             <Col lg="8" md="7" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <div className="ml-lg-4">
-                                    <h5>Job Description: </h5>
-                                    <p className="text-muted">One disadvantage of Lorum Ipsum is that in Latin certain letters appear more frequently than others - which creates a distinct visual impression. Moreover, in Latin only words at the beginning of sentences are capitalized.</p>
-                                    <p className="text-muted">This means that Lorem Ipsum cannot accurately represent, for example, German, in which all nouns are capitalized. Thus, Lorem Ipsum has only limited suitability as a visual filler for German texts. If the fill text is intended to illustrate the characteristics of different typefaces.</p>
-                                    <p className="text-muted">It sometimes makes sense to select texts containing the various letters and symbols specific to the output language.</p>
+                                    <h5>Required Items to Get Started</h5>
+                                    <p className="text-muted">Ledger Nano, ATOMs, Computer</p>
+                                    <p className="text-muted">Completely new to staking and are confused? Check out this introductory guide before proceeding.</p>
 
-                                    <h5 className="mt-4">Responsibilities and Duties: </h5>
-                                    <p className="text-muted">It sometimes makes sense to select texts containing the various letters and symbols specific to the output language.</p>
+
+                                    <h5 className="mt-4">Setting up Ledger Nano</h5>
+                                    <p className="text-muted">If your ATOMs are already on your Ledger Wallet please skip this step. </p>
                                     <ul className="list-unstyled">
                                         <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Participate in requirements analysis</li>
                                         <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Write clean, scalable code using C# and .NET frameworks</li>
@@ -118,8 +119,34 @@ class PageJobDetail extends Component {
                                         <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Serve as an expert on applications and provide technical support</li>
                                     </ul>
 
-                                    <h5 className="mt-4">Required Experience, Skills and Qualifications: </h5>
-                                    <p className="text-muted">It sometimes makes sense to select texts containing the various letters and symbols specific to the output language.</p>
+                                    <h5 className="mt-4">Connecting to Web Wallet</h5>
+                                    <p className="text-muted">If you are already familiar with using web wallets with your Ledger Wallet, please skip this step. We recommend the Lunie.io web wallet, but any alternative you are comfortable with is fine. </p>
+                                    <ul className="list-unstyled">
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Proven experience as a .NET Developer or Application Developer</li>
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>good understanding of SQL and Relational Databases, specifically Microsoft SQL Server.</li>
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Experience designing, developing and creating RESTful web services and APIs</li>
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Basic know how of Agile process and practices</li>
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Good understanding of object-oriented programming.</li>
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Good understanding of concurrent programming.</li>
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Sound knowledge of application architecture and design.</li>
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Excellent problem solving and analytical skills</li>
+                                    </ul>
+
+                                    <h5 className="mt-4">Staking your Tokens</h5>
+                                    <p className="text-muted">If you are already familiar with using web wallets with your Ledger Wallet, please skip this step. We recommend the Lunie.io web wallet, but any alternative you are comfortable with is fine. </p>
+                                    <ul className="list-unstyled">
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Proven experience as a .NET Developer or Application Developer</li>
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>good understanding of SQL and Relational Databases, specifically Microsoft SQL Server.</li>
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Experience designing, developing and creating RESTful web services and APIs</li>
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Basic know how of Agile process and practices</li>
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Good understanding of object-oriented programming.</li>
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Good understanding of concurrent programming.</li>
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Sound knowledge of application architecture and design.</li>
+                                        <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Excellent problem solving and analytical skills</li>
+                                    </ul>
+
+                                    <h5 className="mt-4">Receiving Rewards</h5>
+                                    <p className="text-muted">If you are already familiar with using web wallets with your Ledger Wallet, please skip this step. We recommend the Lunie.io web wallet, but any alternative you are comfortable with is fine. </p>
                                     <ul className="list-unstyled">
                                         <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>Proven experience as a .NET Developer or Application Developer</li>
                                         <li className="text-muted"><i className="mdi mdi-pan-right text-success mdi-18px mr-2"></i>good understanding of SQL and Relational Databases, specifically Microsoft SQL Server.</li>
