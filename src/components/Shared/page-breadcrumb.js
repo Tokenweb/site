@@ -20,16 +20,16 @@ class PageBreadcrumb extends Component {
                                                 item.id !== length
                                                 ? <li key={key}><Link to={item.link} className="text-uppercase font-weight-bold text-dark">{item.name}</Link></li>
                                                 : <li key={key}>
-                                                    <span className="text-uppercase text-primary font-weight-bold">{item.name}</span> 
+                                                    <span className="text-uppercase text-primary font-weight-bold">{item.name}</span>
                                                   </li>
                                             )
                                         }
-                                         
+
                                     </ul>
                                 </div>
-                            </Col>  
+                            </Col>
                         </Row>
-                    </Container> 
+                    </Container>
                 </section>
             </React.Fragment>
         );

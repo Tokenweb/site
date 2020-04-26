@@ -47,7 +47,7 @@ class PageJobDetail extends Component {
                 <PageBreadcrumb pathItems = {this.state.pathItems}>
                     <img src={logo} className="avatar avatar-small" alt=""/>
                     <h4 className="title mt-4 mb-3">Cosmos Staking</h4>
-                    <p className="para-desc mx-auto text-muted">Cosmos Project Description. Short Paragraph.</p>
+                    <p className="para-desc mx-auto text-muted">Cosmos Network is a widely respected Blockchain Project initiated by Tendermint, Inc. which now has hundreds of developers and independent companies working on its development. It's mission is to connect different Blockchains. For example, this would allow someone with Bitcoin to use it with an Ethereum Application. Overall Blockchain connectivity is a large issue within the space and Cosmos is leading the way tackling it. </p>
 
                 </PageBreadcrumb>
 
