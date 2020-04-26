@@ -7,12 +7,12 @@ import './Apps.scss';
 import './css/materialdesignicons.min.css';
 import './css/colors/default.css';
 
-// Include Routes 
+// Include Routes
 import routes from './routes';
 
 function withLayout(WrappedComponent) {
   // ...and returns another component...
-  return class extends React.Component {  
+  return class extends React.Component {
     render() {
       return <Layout>
         <WrappedComponent></WrappedComponent>
@@ -38,14 +38,12 @@ class App extends Component {
   render() {
 
     return (
-      <React.Fragment>  
+      <React.Fragment>
       <Router>
         <Suspense fallback = {this.Loader()} >
             <Switch>
             {routes.map((route, idx) =>
-                route.isWithoutLayout ?
-                  <Route path={route.path} component={route.component} key={idx} />
-                :
+            
                   <Route path={route.path} component={withLayout(route.component)} key={idx} />
             )}
             </Switch>

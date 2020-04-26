@@ -1,26 +1,28 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
+import { Container, Row, Col } from 'reactstrap';
 
-// import images
-import startupSVG from '../../images/illustrator/Startup_SVG.svg';
+// Import images
+import homeShape from '../../images/saas/home-shape.png';
+import homeImg from '../../images/saas/home.png';
 
 class Section extends Component {
     render() {
         return (
             <React.Fragment>
-                <section className="bg-half-170 d-table w-100" id="home">
-                            <Container>
-                                <Row className="align-items-center">
-                                    <Col lg={7} md={7}>
-                                        <div className="title-heading mt-4">
-                                            <h1 className="heading mb-3">Funds by <span className="text-primary">TokenWeb</span> </h1>
-                                            <p className="para-desc text-muted">TokenWeb’s investment funds are based in the Cayman Islands and managed in Switzerland to provide our clients maximum privacy, security, and tax benefits. </p>
-                                          
+                <section className="bg-home d-flex align-items-center" style={{ background: `url(${homeShape})`, backgroundPosition : "center center", height : "auto" }} id="home">                            <Container>
+                                <Row className="justify-content-center">
+                                    <Col lg="12" className="text-center mt-0 mt-md-5 pt-0 pt-md-5">
+                                        <div className="title-heading margin-top-100">
+                                            <h1 className="heading mb-3">Put your tokens to work!</h1>
+                                            <p className="para-desc mx-auto text-muted">Tap into the power of your tokens and generate passive income from them! Don't just let them be lazy and lie around.</p>
+                                            <div className="mt-4 pt-2">
+                                                <Link to="/page-job" className="btn btn-primary">Start Staking<i className="mdi mdi-chevron-right"></i></Link>
+                                            </div>
                                         </div>
-                                    </Col>
-                                    <Col lg={5} md={5} className="mt-4 pt-2 mt-sm-0 pt-sm-0">
-                                        <img src={startupSVG} alt="" />
+                                        <div className="home-dashboard">
+                                            <img src={homeImg} alt="" className="img-fluid" />
+                                        </div>
                                     </Col>
                                 </Row>
                             </Container>

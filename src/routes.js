@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Root Include
-const Root = React.lazy(() => import('./pages/Home/indexRoot'));
+const Root = React.lazy(() => import('./pages/Home/index'));
 const PageContactDetail = React.lazy(() => import('./pages/Pages/Contact/PageContactDetail'));
 
 //Special
@@ -30,7 +30,7 @@ const IndexclassicSaas = React.lazy(() => import('./pages/Classic Saas/index'));
 const ClassicApp = React.lazy(() => import('./pages/Classic Application/index'));
 const Main = React.lazy(() => import('./pages/Home/indexMain'));
 const Agency = React.lazy(() => import('./pages/Agency/index'));
-const Saas = React.lazy(() => import('./pages/Saas/index'));
+
 const Apps = React.lazy(() => import('./pages/Apps/index'));
 const Studio = React.lazy(() => import('./pages/Studio/index'));
 const Business = React.lazy(() => import('./pages/Business/index'));
@@ -119,7 +119,7 @@ const routes = [
     { path: '/index-car-riding', component: IndexCarRiding },
     { path: '/index-classic-saas', component: IndexclassicSaas },
     { path: '/index-classic-app', component: ClassicApp },
-    { path: '/index-saas', component: Saas },
+
     { path: '/index-apps', component: Apps },
     { path: '/index-agency', component: Agency },
     { path: '/index-studio', component: Studio },
