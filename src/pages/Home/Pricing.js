@@ -43,7 +43,7 @@ class Pricing extends Component {
                                                 <li className="feature-list">Free Appointments</li>
                                                 <li className="feature-list">Enhanced Security</li>
                                             </ul>
-                                            <Link to="#" className="btn btn-primary mt-4">Get Started</Link>
+                                            
                                         </div>
                                     </Col>
 

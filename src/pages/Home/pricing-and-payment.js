@@ -70,7 +70,7 @@ class PricingAndPayment extends Component {
                                         <li className="h5 font-weight-normal"><i className="mdi mdi-check-decagram text-primary mr-2"></i>Monthly Payouts</li>
                                     </ul>
 
-                                    <Link to="" className="btn btn-primary btn-block mt-4 pt-2">Payment Now</Link>
+                                    {/* <Link to="" className="btn btn-primary btn-block mt-4 pt-2">Payment Now</Link> */}
                                 </div>
                             </div>
                         </Col>
@@ -94,7 +94,7 @@ class PricingAndPayment extends Component {
 
                                     </ul>
 
-                                    <Link to="" className="btn btn-primary btn-block mt-4 pt-2">Payment Now</Link>
+                                        {/* <Link to="" className="btn btn-primary btn-block mt-4 pt-2">Payment Now</Link> */}
                                 </div>
                             </div>
                         </Col>
