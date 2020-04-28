@@ -9,7 +9,7 @@ import PageBreadcrumb from "../../../components/Shared/page-breadcrumb";
 //Import Images
 import logo from "../../../images/job/cosmos.svg";
 
-class PageJobDetail extends Component {
+class Cosmos extends Component {
 
     constructor(props) {
         super(props);
@@ -167,4 +167,4 @@ class PageJobDetail extends Component {
         );
     }
 }
-export default PageJobDetail;
+export default Cosmos;

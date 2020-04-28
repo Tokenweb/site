@@ -65,7 +65,7 @@ const PageInvoice = React.lazy(() => import('./pages/Pages/Account/page-invoice'
 
 //Career
 const PageJobsSidebar = React.lazy(() => import('./pages/Pages/Careers/page-jobs-sidebar'));
-const PageJobDetail = React.lazy(() => import('./pages/Pages/Careers/page-job-detail'));
+const Cosmos = React.lazy(() => import('./pages/Pages/Careers/cosmos'));
 const Kava = React.lazy(() => import('./pages/Pages/Careers/kava'));
 const PageJob = React.lazy(() => import('./pages/Pages/Careers/PageJob'));
 const PageJobApply = React.lazy(() => import('./pages/Pages/Careers/page-job-apply'));
@@ -159,7 +159,7 @@ const routes = [
     //Page Job
     { path: '/staking-portal', component: PageJob },
     { path: '/page-job-apply', component: PageJobApply },
-    { path: '/cosmos-staking', component: PageJobDetail },
+    { path: '/cosmos-staking', component: Cosmos },
     { path: '/Kava-staking', component: Kava },
     { path: '/page-jobs-sidebar', component: PageJobsSidebar },
     { path: '/page-job-company', component: PageJobCompany },
