@@ -17,7 +17,7 @@ class Topbar extends Component {
                     child : [
                         { title : "Buy Crypto (Coming Soon)", link : "#"  },
 
-                        { title : "Explore Funds", link : "/Funds" },
+                        { title : "Explore Crypto Funds", link : "/Funds" },
 
                     ],
                     },
