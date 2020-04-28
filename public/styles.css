@@ -12,4 +12,9 @@
 
 .disclaimer {
   margin-top: 5%;
+    font-size: 14px;
+}
+
+.disclaimercontent {
+  font-size: 12px;
 }

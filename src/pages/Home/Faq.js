@@ -14,10 +14,10 @@ class Faq extends Component {
                             <Col className="text-center">
                                 <div className="section-title">
                                     <h4 className="title mb-4">Send us a message to learn more</h4>
-                                  <p className="text-muted para-desc mx-auto">Let us know your investment goals and we will get back to you very soon. We make investing simple and accessible for everyone.</p>
+                                  <p className="text-muted para-desc mx-auto">We make investing simple and accessible for everyone. Let us know your investment goals and we will be in touch very soon!</p>
                                   <form method="post" action="mailto:info@tokenweb.io" > <input type="submit" value="Email Us" className="btn btn-primary mt-4"/></form>
                                   <p className="text-muted para-desc mx-auto disclaimer">**Disclaimer**</p>
-                                  <p className="text-muted para-desc mx-auto">We cannot accept funds from anyone who resides, has citizenship or does regular business dealings with any country or individual on the international sanctions list.
+                                  <p className="text-muted para-desc mx-auto disclaimercontent">We cannot accept funds from anyone who resides, has citizenship or does regular business dealings with any country or individual on the international sanctions list.
 We may be required to complete KYC and AML procedures depending on the situation.
 If you are an American Citizen, Resident, or are tax liable there you must meet the accredited investor criteria.
 We reserve the right, without providing reason, to deny anyone from joining a TokenWeb fund.
