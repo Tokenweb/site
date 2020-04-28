@@ -150,7 +150,7 @@ class Kava extends Component {
                                     </ul>
 
                                     <div className="mt-4">
-                                        <Link to="#" className="btn btn-outline-primary">Need Help? <i className="mdi mdi-send"></i></Link>
+                                        <a href="https://t.me/tokenweb" target="_blank" className="btn btn-outline-primary">Need Help? <i className="mdi mdi-send"></i></a>
                                     </div>
                                 </div>
                             </Col>
