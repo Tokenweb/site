@@ -47,7 +47,7 @@ class PageJobDetail extends Component {
                 <PageBreadcrumb pathItems = {this.state.pathItems}>
                     <img src={logo} className="avatar avatar-small" alt=""/>
                     <h4 className="title mt-4 mb-3">Kava Staking</h4>
-                    <p className="para-desc mx-auto text-muted">Kava Project Description. Short Paragraph.</p>
+                    <p className="para-desc mx-auto text-muted">Kava is a cross-chain lending platform backed by a stable coin. What this means is that people who hold any major crypto coin such as Bitcoin, ATOM, ETH, BNB, etc. can use their crypto as collateral to secure loans in a stable coin, just by clicking a few buttons. It is similar to MakerDAO's permissionless credit but not limited to just Ethereum Coins. </p>
 
                 </PageBreadcrumb>
 
@@ -80,14 +80,14 @@ class PageJobDetail extends Component {
                                             <i className="mdi mdi-monitor mdi-24px float-left mr-3"></i>
                                             <div className="overflow-hidden d-block">
                                                 <h4 className="widget-title mb-0">Staking Reward</h4>
-                                                <p className="text-primary">~ % Annually</p>
+                                                <p className="text-primary">~ 8.08% Annually</p>
                                             </div>
                                         </div>
                                         <div className="widget">
                                             <i className="mdi mdi-briefcase-outline mdi-24px float-left mr-3"></i>
                                             <div className="overflow-hidden d-block">
                                                 <h4 className="widget-title mb-0">Unbonding Period</h4>
-                                                <p className="text-primary"> Days</p>
+                                                <p className="text-primary"> 21 Days</p>
                                             </div>
                                         </div>
 
