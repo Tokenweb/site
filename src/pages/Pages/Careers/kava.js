@@ -9,7 +9,7 @@ import PageBreadcrumb from "../../../components/Shared/page-breadcrumb";
 //Import Images
 import logo from "../../../images/job/Gradle.svg";
 
-class PageJobDetail extends Component {
+class Kava extends Component {
 
     constructor(props) {
         super(props);
@@ -170,4 +170,4 @@ class PageJobDetail extends Component {
         );
     }
 }
-export default PageJobDetail;
+export default Kava;
