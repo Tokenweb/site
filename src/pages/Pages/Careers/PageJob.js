@@ -113,7 +113,7 @@ class PageJob extends Component {
                                                     <img src={job.cmpImage} className="avatar avatar-md-sm" alt=""/>
                                                 </div>
                                                 <div className="company-detail text-center mt-3">
-                                                    <h5 className="mb-0"><Link to={"/page-job-company"} className="text-dark company-name">{job.cmpName}</Link></h5>
+                                                    <h5 className="mb-0"><Link to={"/" + job.cmpName + "-staking"} className="text-dark company-name">{job.cmpName}</Link></h5>
 
                                                 </div>
                                                 <ul className="job-facts list-unstyled">
@@ -121,7 +121,7 @@ class PageJob extends Component {
                                                     <li className="list-inline-item text-muted"><i className="mdi mdi-check text-success mr-1"></i> Annual Reward ~ {job.reward}</li>
 
                                                 </ul>
-                                                <Link to="/cosmos-staking" className="btn btn-outline-primary btn-block">Stake Now</Link>
+                                                <Link to={"/" + job.cmpName + "-staking"} className="btn btn-outline-primary btn-block">Stake Now</Link>
                                             </div>
                                         </div>
                                     </Col>
