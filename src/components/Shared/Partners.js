@@ -13,17 +13,17 @@ class Partners extends Component {
             <React.Fragment>
                         <Row className="justify-content-center" id="partners">
                             <Col id="partner1" lg="3" md="4" xs="6" className="text-center partnerLogo">
-                                <img src={img1} className="avatar" alt="cosmos transparent full text logo"/>
+                              <a href="cosmos-staking"><img src={img1} className="avatar" alt="cosmos transparent full text logo"/></a>
                             </Col>
 
                             <Col id="partner2" lg="3" md="4" xs="6" className="text-center partnerLogo">
-                                <img src={img2} className="avatar" alt="kava transparent full text logo"/>
+                              <a href="kava-staking"><img src={img2} className="avatar" alt="kava transparent full text logo"/></a>
                             </Col>
                             <Col id="partner3" lg="3" md="4" xs="6" className="text-center partnerLogo">
-                                <img src={img3} className="avatar" alt="ethereum transparent full text logo"/>
+                                <a href="staking-portal"><img src={img3} className="avatar" alt="ethereum transparent full text logo"/></a>
                             </Col>
                             <Col id="partner4" lg="3" md="4" xs="6" className="text-center partnerLogo">
-                                <img src={img4} className="avatar" alt="polkadot transparent full text logo"/>
+                                <a href="staking-portal"><img src={img4} className="avatar" alt="polkadot transparent full text logo"/></a>
                             </Col>
 
 
