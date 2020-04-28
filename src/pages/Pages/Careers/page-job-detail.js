@@ -7,7 +7,7 @@ import { Container, Row, Col } from 'reactstrap';
 import PageBreadcrumb from "../../../components/Shared/page-breadcrumb";
 
 //Import Images
-import logo from "../../../images/job/Gradle.svg";
+import logo from "../../../images/job/cosmos.svg";
 
 class PageJobDetail extends Component {
 
