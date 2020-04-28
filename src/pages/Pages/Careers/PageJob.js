@@ -124,7 +124,7 @@ class PageJob extends Component {
 
                                                 {
                                                     job.time === "Active" ? <Link to={"/" + job.cmpName + "-staking"} className="btn btn-outline-primary btn-block">Stake Now</Link>
-                                                    : job.time === "Coming Soon" ? <Link to="#" className="btn btn-outline btn-block disabledCursor">Coming Soon</Link> : <Link to="#" className="btn btn-outline-primary btn-block disabledCursor">Stake Now</Link>
+                                                    : job.time === "Coming Soon" ? <Link to="#" className="btn btn-light btn-block disabled" >Coming Soon</Link> : <Link to="#" className="btn btn-outline-primary btn-block disabledCursor">Stake Now</Link>
                                                 }
 
 
