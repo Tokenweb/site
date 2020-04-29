@@ -34,7 +34,7 @@ class Topbar extends Component {
                 { id : 3, title : "Learn", link : "/#", isOpenSubMenu : false,
                     child : [
 
-                        { id : 1, title : "Blog (Coming Soon)", link : "#" },
+                        { id : 1, title : "Blog", link : "/blog" },
                         { id : 2, title : "Tutorials (Coming Soon)", link : "#" },
 
                         { id : 3, title : "Frequently Asked Questions", link : "./faq"},

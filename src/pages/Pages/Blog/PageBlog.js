@@ -3,20 +3,14 @@ import React, { Component } from 'react';
 import { Container, Row, Col, Pagination, PaginationItem, PaginationLink } from 'reactstrap';
 
 //Import components
-import PageBreadcrumb from "../../../components/Shared/page-breadcrumb";
+
 import BlogBox from "../../../components/Shared/blog-box";
 
 // import images
-import blog01 from '../../../images/blog/01.jpg';
-import blog02 from '../../../images/blog/02.jpg';
-import blog03 from '../../../images/blog/03.jpg';
-import blog04 from '../../../images/blog/04.jpg';
-import blog05 from '../../../images/blog/05.jpg';
-import blog06 from '../../../images/blog/06.jpg';
-import blog07 from '../../../images/blog/07.jpg';
-import blog08 from '../../../images/blog/08.jpg';
+import cosmosbg from '../../../images/blog/cosmosbg.png';
 
-class PageBlog extends Component {
+
+class Blog extends Component {
 
     constructor(props) {
         super(props);
@@ -29,14 +23,14 @@ class PageBlog extends Component {
                 { id : 4, name : "Blog Grid" },
             ],
             blogs : [
-                { id : 1, image : blog01, title : "Design your apps in your own way", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
-                { id : 2, image : blog02, title : "How apps is changing the IT world", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
-                { id : 3, image : blog03, title : "Smartest Applications for Business", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
-                { id : 4, image : blog04, title : "Design your apps in your own way", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
-                { id : 5, image : blog05, title : "How apps is changing the IT world", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
-                { id : 6, image : blog06, title : "Smartest Applications for Business", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
-                { id : 7, image : blog07, title : "Design your apps in your own way", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
-                { id : 8, image : blog08, title : "How apps is changing the IT world", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
+                { id : 1, image : cosmosbg, title : "Introduction to Staking Cosmos", autor : "Margarethe", link : "/introduction-to-staking-cosmos" },
+                // { id : 2, image : blog02, title : "How apps is changing the IT world", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
+                // { id : 3, image : blog03, title : "Smartest Applications for Business", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
+                // { id : 4, image : blog04, title : "Design your apps in your own way", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
+                // { id : 5, image : blog05, title : "How apps is changing the IT world", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
+                // { id : 6, image : blog06, title : "Smartest Applications for Business", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
+                // { id : 7, image : blog07, title : "Design your apps in your own way", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
+                // { id : 8, image : blog08, title : "How apps is changing the IT world", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
             ]
         }
     }
@@ -73,14 +67,7 @@ class PageBlog extends Component {
             <React.Fragment>
 
                 {/* breadcrumb */}
-                <PageBreadcrumb title="Blog" pathItems = {this.state.pathItems} />
-                    <div className="position-relative">
-                        <div className="shape overflow-hidden text-white">
-                            <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
-                            </svg>
-                        </div>
-                    </div>
+
 
                 <section className="section">
                     <Container>
@@ -89,13 +76,13 @@ class PageBlog extends Component {
                             <BlogBox blogs={this.state.blogs} />
 
                             <Col xs="12">
-                                        <Pagination className="pagination justify-content-center mb-0 list-unstyled">
+                                    {/*    <Pagination className="pagination justify-content-center mb-0 list-unstyled">
                                             <PaginationItem><PaginationLink href="#" className="pr-3 pl-3 pt-2 pb-2">Prev</PaginationLink></PaginationItem>
                                             <PaginationItem active><PaginationLink href="#" className="pr-3 pl-3 pt-2 pb-2">1</PaginationLink></PaginationItem>
                                             <PaginationItem><PaginationLink href="#" className="pr-3 pl-3 pt-2 pb-2">2</PaginationLink></PaginationItem>
                                             <PaginationItem><PaginationLink href="#" className="pr-3 pl-3 pt-2 pb-2">3</PaginationLink></PaginationItem>
                                             <PaginationItem><PaginationLink href="#" className="pr-3 pl-3 pt-2 pb-2">Next</PaginationLink></PaginationItem>
-                                        </Pagination>
+                                        </Pagination> */}
                             </Col>
                         </Row>
                     </Container>
@@ -104,4 +91,4 @@ class PageBlog extends Component {
         );
     }
 }
-export default PageBlog;
+export default Blog;

@@ -24,7 +24,7 @@ class Banner extends Component {
                             </Col>
 
                             <Col lg="4" md="4" className="mt-4 mt-sm-0 text-sm-right pt-2 pt-sm-0">
-                                <Link to="#" className="btn btn-outline-primary">Read Guide <i className="mdi mdi-chevron-right"></i></Link>
+                                <Link to="/introduction-to-staking-cosmos" className="btn btn-outline-primary">Read Guide <i className="mdi mdi-chevron-right"></i></Link>
                             </Col>
                         </Row>
 

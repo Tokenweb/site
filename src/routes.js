@@ -73,7 +73,8 @@ const PageJobCompany = React.lazy(() => import('./pages/Pages/Careers/page-job-c
 const PageJobCandidate = React.lazy(() => import('./pages/Pages/Careers/page-job-candidate'));
 
 //Blog
-const PageBlog = React.lazy(() => import('./pages/Pages/Blog/PageBlog'));
+const Blog = React.lazy(() => import('./pages/Pages/Blog/PageBlog'));
+const CosmosStakingBlog = React.lazy(() => import('./pages/Pages/Blog/introduction-to-staking-cosmos'));
 const PageBlogDetail = React.lazy(() => import('./pages/Pages/Blog/PageBlogDetail'));
 const PageBlogSidebar = React.lazy(() => import('./pages/Pages/Blog/PageBlogSidebar'));
 
@@ -166,9 +167,11 @@ const routes = [
     { path: '/page-job-candidate', component: PageJobCandidate },
 
     //Page Blog
-    { path: '/page-blog', component: PageBlog },
+    { path: '/blog', component: Blog },
     { path: '/page-blog-detail', component: PageBlogDetail },
     { path: '/page-blog-sidebar', component: PageBlogSidebar },
+    { path: '/introduction-to-staking-cosmos', component: CosmosStakingBlog },
+
 
     //Page Contact
     { path: '/page-contact-one', component: PageContactOne },
