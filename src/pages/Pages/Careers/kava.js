@@ -104,7 +104,7 @@ class Kava extends Component {
                                 <div className="ml-lg-4">
                                     <h5>Required Items to Get Started</h5>
                                     <p className="text-muted">Ledger Nano, KAVA, Computer</p>
-                                    <p className="text-muted">Completely new to staking and are confused? Check out this introductory guide before proceeding.</p>
+                                    <p className="text-muted">Completely new to staking and are confused? Check out this <Link to="/introduction-to-staking-cosmos">introductory guide</Link> before proceeding.</p>
 
 
                                     <h5 className="mt-4">Setting up Ledger Nano</h5>
