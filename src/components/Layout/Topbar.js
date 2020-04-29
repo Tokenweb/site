@@ -13,7 +13,7 @@ class Topbar extends Component {
                 { id : 1, title : "Stake", link : "/staking-portal" },
                 { id : 2, title : "Invest", link : "#",
 
-                 isOpenSubMenu : false,
+                isOpenSubMenu : false,
                     child : [
                         { title : "Buy Crypto (Coming Soon)", link : "#"  },
 
@@ -21,21 +21,15 @@ class Topbar extends Component {
 
                     ],
                     },
-                    // child2 : [
-                    //     { title : "Cloud Hosting", link : "/index-cloud-hosting" },
-                    //     { title : "Event", link : "/index-event" },
-                    //     { title : "Course", link : "/index-course" },
-                    //     { title : "Personal", link : "/index-personal" },
-                    //     { title : "Product", link : "/index-single" },
-                    //     { title : "Portfolio", link : "/index-portfolio" },
-                    //     { title : "Service", link : "/index-services" },
-                    //     { title : "Payments", link : "/index-payments" },
-                    //     { title : "Cryptocurrency", link : "/index-crypto" },
-                    //     { title : "Software", link : "/index-software" },
-                    //     { title : "Job", link : "/index-job" },
-                    //     { title : "Customer", link : "/index-customer" },
-                    //     { title : "Saas", link : "/index-onepage", isOnePage : true },
-                    // ]
+
+                    // { id : 4, title : "Products", link : "/#", isOpenSubMenu : false,
+                    // child : [
+                    //     { title : "Staking Calculator", link : "/documentation"},
+                    //     { title : "Gabel Explorer", link : "/changelog"},
+                    //     { title : "Wallet", link : "/components"},
+                    //     { title : "Widget", link : "/widget"},
+                    //     ]
+                    // },
 
                 { id : 3, title : "Learn", link : "/#", isOpenSubMenu : false,
                     child : [
@@ -44,79 +38,11 @@ class Topbar extends Component {
                         { id : 2, title : "Tutorials (Coming Soon)", link : "#" },
 
                         { id : 3, title : "Frequently Asked Questions", link : "./faq"},
-
-                        // { id : 5, title : "Account", link : "/#", isOpenNestedSubMenu : false,
-                        //     nestedChild : [
-                        //         { title : "Profile", link : "/page-profile"},
-                        //         { title : "Account Setting", link : "/page-profile-edit"},
-                        //         { title : "Invoice", link : "/page-invoice"},
-                        //     ]
-                        // },
-                        // { id : 6, title : "Careers", link : "/#", isAdded : true, isOpenNestedSubMenu : false,
-                        //     nestedChild : [
-                        //         { title : "Jobs", link : "/page-job"},
-                        //         { title : "Jobs - Sidebar", link : "/page-jobs-sidebar", isAdded : true },
-                        //         { title : "Job Detail", link : "/page-job-detail"},
-                        //         { title : "Job Apply", link : "/page-job-apply"},
-                        //         { title : "Company", link : "/page-job-company"},
-                        //         { title : "Candidate", link : "/page-job-candidate"},
-                        //     ]
-                        // },
-                        // { id : 7, title : "Tutorials", link : "/#", isOpenNestedSubMenu : false,
-                        //     nestedChild : [
-                        //         { title : "Blog Grid", link : "/page-blog"},
-                        //         { title : "Blog with Sidebar", link : "/page-blog-sidebar"},
-                        //         { title : "Blog Detail", link : "/page-blog-detail"},
-                        //     ]
-                        // },
-                        // { id : 8, title : "Works", link : "/#", isOpenNestedSubMenu : false,
-                        //     nestedChild : [
-                        //         { title : "Works Grid", link : "/page-work"},
-                        //         { title : "Work Detail", link : "/page-work-detail"},
-                        //     ]
-                        // },
-                        // { id : 9, title : "User", link : "/#", isOpenNestedSubMenu : false,
-                        //     nestedChild : [
-                        //         { title : "Login", link : "/page-login"},
-                        //         { title : "Signup", link : "/page-signup"},
-                        //         { title : "Recovery Password", link : "/page-recovery-password"},
-                        //         { title : "Login 2", link : "/page-cover-login"},
-                        //         { title : "Signup 2", link : "/page-cover-signup"},
-                        //         { title : "Recovery Password 2", link : "/page-cover-re-password"},
-                        //     ]
-                        // },
-                        // { id : 10, title : "Utility", link : "/#", isOpenNestedSubMenu : false,
-                        //     nestedChild : [
-                        //         { title : "Terms of Services", link : "/page-terms"},
-                        //         { title : "Privacy Policy", link : "/page-privacy"},
-                        //     ]
-                        // },
-                        // { id : 11, title : "Special", link : "/#", isOpenNestedSubMenu : false,
-                        //     nestedChild : [
-                        //         { title : "Coming Soon", link : "/page-comingsoon"},
-                        //         { title : "Coming Soon Two", link : "/page-comingsoon2"},
-                        //         { title : "Maintenance", link : "/page-maintenance"},
-                        //         { title : "Error", link : "/page-error"},
-                        //     ]
-                        // },
-                        // { id : 12, title : "Contact", link : "/#", isOpenNestedSubMenu : false,
-                        //     nestedChild : [
-                        //         { title : "Contact Detail", link : "/page-contact-detail"},
-                        //         { title : "Contact One", link : "/page-contact-one"},
-                        //         { title : "Contact Two", link : "/page-contact-two"},
-                        //         { title : "Contact Three", link : "/page-contact-three"},
-                        //     ]
-                        // },
                     ]
+
+
                 },
-                // { id : 4, title : "Docs", link : "/#", isOpenSubMenu : false,
-                // child : [
-                //     { title : "Documentations", link : "/documentation"},
-                //     { title : "Changelog", link : "/changelog"},
-                //     { title : "Components", link : "/components"},
-                //     { title : "Widget", link : "/widget"},
-                //     ]
-                // },
+
             ]
          };
         this.toggleLine = this.toggleLine.bind(this);
