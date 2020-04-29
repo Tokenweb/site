@@ -6,7 +6,7 @@ import { Container,Row, Col, FormGroup, Label } from 'reactstrap';
 import StarRatings from 'react-star-ratings';
 
 //Import components
-
+import Banner from "./banner";
 
 
 //Import Images
@@ -40,7 +40,7 @@ class PageJob extends Component {
                 { id : 1, image : full, title : "Cosmos", time : "Active", cmpImage : Cosmos, cmpName : "Cosmos", Annual  : "2 Year", reward : "8.74%", field : "Information strategy" },
                 { id : 2, image : full, title : "Kava", time : "Active", cmpImage : Kava, cmpName : "Kava", Experience : "2 Year", reward : "8.08%", field : "Information strategy" },
                 { id : 3, image : full, title : "Ethereum", time : "Coming Soon", cmpImage : EthereumGold, cmpName : "Ethereum", reward : "7.15%", workingHrs : "6hr", field : "Information strategy" },
-                { id : 4, image : full, title : "Polkadot", time : "Coming Soon", cmpImage : Polkadot, cmpName : "Polkadot", reward : "6-14%", workingHrs : "6hr", field : "Information strategy" },
+                { id : 4, image : full, title : "Polkadot", time : "Coming Maybe?", cmpImage : Polkadot, cmpName : "Polkadot", reward : "6-14%", workingHrs : "6hr", field : "Information strategy" },
 
 
             ]
@@ -82,7 +82,7 @@ class PageJob extends Component {
 
                 <section className="section">
                     <Container>
-
+                  
 
                         <Row>
 
@@ -103,7 +103,7 @@ class PageJob extends Component {
                                                 <ul className="list-unstyled head mb-0">
                                                     {
                                                         job.time === "Active" ? <li className={"badge badge-success badge-pill"}>{job.time}</li>
-                                                        : job.time === "Coming Soon" ? <li className={"badge badge-warning badge-pill"}>{job.time}</li> : <li className={"badge badge-danger badge-pill"}>{job.time}</li>
+                                                        : job.time === "Coming Soon" ? <li className={"badge badge-warning badge-pill"}>{job.time}</li> : <li className={"badge badge-warning badge-pill"}>{job.time}</li>
                                                     }
                                                 </ul>
                                             </div>
@@ -124,7 +124,7 @@ class PageJob extends Component {
 
                                                 {
                                                     job.time === "Active" ? <Link to={"/" + job.cmpName + "-staking"} className="btn btn-outline-primary btn-block">Stake Now</Link>
-                                                    : job.time === "Coming Soon" ? <Link to="#" className="btn btn-light btn-block disabled" >Coming Soon</Link> : <Link to="#" className="btn btn-outline-primary btn-block disabledCursor">Stake Now</Link>
+                                                    : job.time === "Coming Soon" ? <Link to="#" className="btn btn-light btn-block disabled" >Coming Soon</Link> : <Link to="#" className="btn btn-light btn-block disabled" >Coming Maybe?</Link>
                                                 }
 
 
@@ -137,6 +137,7 @@ class PageJob extends Component {
                                 )
                             }
                         </Row>
+                    <Banner />
                     </Container>
                 </section>
             </React.Fragment>

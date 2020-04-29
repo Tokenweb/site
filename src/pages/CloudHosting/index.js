@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 // Import Generic components
 import Section from "./section";
 import Search from './Search';
-import Services from './Services';
+import Banner from './banner';
 import HowItWorks from './HowItWorks';
 import Price from './Price';
 import Testi from './Testi';
@@ -16,7 +16,7 @@ class Index extends Component {
         this.state = {
         }
     }
-    
+
     componentDidMount() {
         document.body.classList = "";
         document.getElementById('topnav').classList.add('bg-white');
@@ -27,7 +27,7 @@ class Index extends Component {
         componentWillUnmount() {
             window.removeEventListener("scroll",this.scrollNavigation, true);
          }
-  
+
       scrollNavigation = () => {
           var doc = document.documentElement;
           var top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
@@ -53,14 +53,14 @@ class Index extends Component {
                 <Search />
 
                 {/* Services */}
-                <Services />
+                <Banner />
 
                 {/* HowItWorks */}
                 <HowItWorks />
 
                 {/* Price */}
                 <Price />
-                
+
                 {/* Testi */}
                 <Testi />
 
