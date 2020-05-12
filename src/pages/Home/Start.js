@@ -6,6 +6,9 @@ import { Link } from 'react-router-dom';
 // Import images
 import saas1 from '../../images/saas/1.png';
 import appDevelopmentSVG from '../../images/illustrator/app_development_SVG.svg';
+import staking from '../../images/saas/staking.jpg';
+import money from '../../images/saas/moneygrowth.jpg';
+import work from '../../images/saas/work.jpg';
 
 //Import Components
 import SectionTitleLeft from "../../components/Shared/section-title-left";
@@ -28,10 +31,10 @@ class Start extends Component {
     render() {
         return (
             <React.Fragment>
-                    <Container className="mt-100 mt-60">
+                    <Container className="mt-70 mt-60">
                         <Row className="align-items-center">
                             <Col lg={6} md={6}>
-                                <img src={saas1} className="img-fluid shadow rounded" alt="" />
+                                <img src={staking} className="img-fluid shadow rounded" alt="" />
                             </Col>
 
                             <Col lg={6} md={6}  className="mt-4 mt-sm-0 pt-2 pt-sm-0">

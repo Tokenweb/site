@@ -5,6 +5,10 @@ import { Container, Row, Col } from 'reactstrap';
 // Import images
 import homeShape from '../../images/saas/home-shape.png';
 import homeImg from '../../images/saas/home.png';
+import staking from '../../images/saas/staking.jpg';
+import money from '../../images/saas/moneygrowth.jpg';
+import work from '../../images/saas/work.jpg';
+import desk from '../../images/saas/computerdesk.png';
 
 class Section extends Component {
     render() {
@@ -20,8 +24,8 @@ class Section extends Component {
                                                 <Link to="/staking-portal" className="btn btn-primary">Start Staking<i className="mdi mdi-chevron-right"></i></Link>
                                             </div>
                                         </div>
-                                        <div className="home-dashboard">
-                                            <img src={homeImg} alt="" className="img-fluid" />
+                                        <div className="home-dashboard landingimg">
+                                            <img src={desk} alt="" className="img-fluid" />
                                         </div>
                                     </Col>
                                 </Row>
