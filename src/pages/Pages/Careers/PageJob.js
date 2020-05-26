@@ -38,9 +38,9 @@ class PageJob extends Component {
             ],
             jobs : [
                 { id : 1, image : full, title : "Cosmos", time : "Active", cmpImage : Cosmos, cmpName : "Cosmos", Annual  : "2 Year", reward : "8.74%", field : "Information strategy" },
-                { id : 2, image : full, title : "Kava", time : "Active", cmpImage : Kava, cmpName : "Kava", Experience : "2 Year", reward : "8.08%", field : "Information strategy" },
-                { id : 3, image : full, title : "Ethereum", time : "Coming Soon", cmpImage : EthereumGold, cmpName : "Ethereum", reward : "7.15%", workingHrs : "6hr", field : "Information strategy" },
-                { id : 4, image : full, title : "Polkadot", time : "Coming Maybe?", cmpImage : Polkadot, cmpName : "Polkadot", reward : "6-14%", workingHrs : "6hr", field : "Information strategy" },
+              
+                { id : 2, image : full, title : "Ethereum", time : "Coming Soon", cmpImage : EthereumGold, cmpName : "Ethereum", reward : "7.15%", workingHrs : "6hr", field : "Information strategy" },
+                { id : 3, image : full, title : "Polkadot", time : "Coming Maybe?", cmpImage : Polkadot, cmpName : "Polkadot", reward : "6-14%", workingHrs : "6hr", field : "Information strategy" },
 
 
             ]
@@ -82,7 +82,7 @@ class PageJob extends Component {
 
                 <section className="section">
                     <Container>
-                  
+
 
                         <Row>
 
