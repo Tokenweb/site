@@ -18,6 +18,7 @@ class Section extends Component {
                                 <Row className="justify-content-center">
                                     <Col lg="12" className="text-center mt-0 mt-md-5 pt-0 pt-md-5">
                                         <div className="title-heading margin-top-100">
+                                        <h1 className="heading mb-3">Attention! We are migrating to new infrastructure to prepare for the immense growth which is coming to the staking industry. We apologise that our staking servers will be offline during this period. Everything will be back online and resume to normal in a few days.</h1>
                                             <h1 className="heading mb-3">Make Money while you Sleep!</h1>
                                             <p className="para-desc mx-auto text-muted">Tap into the power of your tokens and generate passive income from them.</p>
                                             <div className="mt-4 pt-2">
