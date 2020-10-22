@@ -29,7 +29,7 @@ class PricingAndPayment extends Component {
                         <Col lg="4" md="6" xs="12" className="mt-4 pt-2">
                             <div className="rounded border bg-light shadow">
                                 <div className="bg-primary p-4 text-center rounded-top">
-                                    <h4 className="mb-0 title-dark text-light">Token Fund I</h4>
+                                    <h4 className="mb-0 title-dark text-light">Token Fund</h4>
                                 </div>
 
                                 <div className="p-4">
@@ -40,7 +40,7 @@ class PricingAndPayment extends Component {
 
                                     <ul className="feature list-inline">
 
-                                        <li className="h5 font-weight-normal"><i className="mdi mdi-check-decagram text-primary mr-2"></i>CHF 2,500 Minimum</li>
+                                        <li className="h5 font-weight-normal"><i className="mdi mdi-check-decagram text-primary mr-2"></i>CHF 50,000 Minimum</li>
                                         <li className="h5 font-weight-normal"><i className="mdi mdi-check-decagram text-primary mr-2"></i>5 Year Holding Period</li>
                                         <li className="h5 font-weight-normal"><i className="mdi mdi-check-decagram text-primary mr-2"></i>100% Capital in Tokens</li>
                                     </ul>
@@ -53,18 +53,18 @@ class PricingAndPayment extends Component {
                         <Col lg="4" md="6" xs="12" className="mt-4 pt-2">
                             <div className="rounded border bg-light shadow">
                                 <div className="bg-primary p-4 text-center rounded-top">
-                                    <h4 className="mb-0 title-dark text-light">Staking Fund I</h4>
+                                    <h4 className="mb-0 title-dark text-light">Staking Fund</h4>
                                 </div>
 
                                 <div className="p-4">
                                     <div className="d-flex justify-content-center mb-4">
 
 
-                                      <span className="h6 align-self-end mb-2 ml-2">Invests in stakable tokens and pays out staking revenue</span>
+                                      <span className="h6 align-self-end mb-2 ml-2">Invests in stakable tokens and distributes staking revenue quarterly.</span>
                                     </div>
 
                                     <ul className="feature list-inline">
-                                        <li className="h5 font-weight-normal"><i className="mdi mdi-check-decagram text-primary mr-2"></i>CHF 500 Minimum</li>
+                                        <li className="h5 font-weight-normal"><i className="mdi mdi-check-decagram text-primary mr-2"></i>CHF 100,000 Minimum</li>
                                         <li className="h5 font-weight-normal"><i className="mdi mdi-check-decagram text-primary mr-2"></i>Withdraw Anytime</li>
 
                                         <li className="h5 font-weight-normal"><i className="mdi mdi-check-decagram text-primary mr-2"></i>Monthly Payouts</li>
@@ -78,19 +78,19 @@ class PricingAndPayment extends Component {
                         <Col lg="4" md="6" xs="12" className="mt-4 pt-2">
                             <div className="rounded border bg-light shadow">
                                 <div className="bg-primary p-4 text-center rounded-top">
-                                    <h4 className="mb-0 title-dark text-light">Ecosystem Fund I</h4>
+                                    <h4 className="mb-0 title-dark text-light">Yield Farming Fund</h4>
                                 </div>
 
                                 <div className="p-4">
                                     <div className="d-flex justify-content-center mb-4">
 
-                                        <span className="h6 align-self-end mb-2 ml-2">Invests in projects which support token growth</span>
+                                        <span className="h6 align-self-end mb-2 ml-2">Provides liquidity to DeFi platforms in exchange for token incentives.</span>
                                     </div>
 
                                     <ul className="feature list-inline">
-                                        <li className="h5 font-weight-normal"><i className="mdi mdi-check-decagram text-primary mr-2"></i>CHF 5,000 Minimum</li>
-                                        <li className="h5 font-weight-normal"><i className="mdi mdi-check-decagram text-primary mr-2"></i>Equity, No Tokens</li>
-                                        <li className="h5 font-weight-normal"><i className="mdi mdi-check-decagram text-primary mr-2"></i>Close Ended</li>
+                                        <li className="h5 font-weight-normal"><i className="mdi mdi-check-decagram text-primary mr-2"></i>CHF 100,000 Minimum</li>
+                                        <li className="h5 font-weight-normal"><i className="mdi mdi-check-decagram text-primary mr-2"></i>Token Based</li>
+                                        <li className="h5 font-weight-normal"><i className="mdi mdi-check-decagram text-primary mr-2"></i>90 Day Redemption Period</li>
 
                                     </ul>
 
