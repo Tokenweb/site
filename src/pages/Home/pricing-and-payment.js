@@ -23,7 +23,7 @@ class PricingAndPayment extends Component {
             <React.Fragment>
                 <Container className="mt-100 mt-60 fundBlocks">
                     {/* Render Section Title */}
-                    <SectionTitle title="Our Funds" desc="Our investment products are great for everyone. We have something for every size of risk and goals." />
+                    <SectionTitle title="Our Funds" desc="Year over year, TokenWeb's crypto-based funds have grossly outperformed industry averages. We are truly experts at what we do." />
 
                     <Row>
                         <Col lg="4" md="6" xs="12" className="mt-4 pt-2">
