@@ -19,15 +19,13 @@ class Section extends Component {
                                     <Col lg="12" className="text-center mt-0 mt-md-5 pt-0 pt-md-5">
                                         <div className="title-heading margin-top-100">
 
-                                            <h1 className="heading mb-3">Monetise your Crypto.</h1>
-                                            <p className="para-desc mx-auto text-muted">Tokenweb curates the top products and services to tap into the true power of your crypto holdings and generate passive income from them.</p>
+                                            <h1 className="heading mb-3">Optimise your Crypto Holdings</h1>
+                                            <p className="para-desc mx-auto text-muted">Tokenweb.io curates the top projects in the crypto industry and streamlines the process to monetise your portfolio.</p>
                                             <div className="mt-4 pt-2">
-                                                <Link to="/staking-portal" className="btn btn-primary">Start Staking<i className="mdi mdi-chevron-right"></i></Link>
+                                                <Link to="/staking-portal" className="btn btn-primary">Get Started<i className="mdi mdi-chevron-right"></i></Link>
                                             </div>
                                         </div>
-                                        <div className="home-dashboard landingimg">
-                                            <img src={desk} alt="" className="img-fluid" />
-                                        </div>
+
                                     </Col>
                                 </Row>
                             </Container>

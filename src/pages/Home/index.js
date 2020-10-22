@@ -13,7 +13,7 @@ import SectionTitle from "../../components/Shared/section-title";
 import Partners from '../../components/Shared/Partners';
 import Feature from '../../components/Shared/Feature';
 import Start from './Start';
-import Client from './Client';
+
 
 class Index extends Component {
 
@@ -72,6 +72,21 @@ class Index extends Component {
                 {/* section */}
                 <Section/>
 
+
+
+
+                {/* Feature */}
+                <section className="section">
+
+
+                    {/* Start */}
+                    <Start />
+
+                    {/* Client */}
+
+                </section>
+
+
                 {/* Partner */}
                 <section className="section bg-light mt-0 mt-md-5">
                     <Container>
@@ -84,16 +99,6 @@ class Index extends Component {
                 </section>
 
 
-                {/* Feature */}
-                <section className="section">
-
-
-                    {/* Start */}
-                    <Start />
-
-                    {/* Client */}
-                    <Client />
-                </section>
 
                 <div className="position-relative">
                         <div className="shape overflow-hidden text-footer">
