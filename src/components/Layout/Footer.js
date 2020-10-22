@@ -11,8 +11,8 @@ class Footer extends Component {
     this.state = {
         grid1 : [
             { title : "Stake", link : "./staking-portal" },
-            { title : "Buy Crypto (Coming Soon)", link : "#" },
-            { title : "Investment Funds", link : "./Funds" },
+            { title : "Mine (Coming Soon)", link : "#" },
+            { title : "Invest", link : "./Funds" },
 
 
 
@@ -37,7 +37,7 @@ class Footer extends Component {
 
 
                     <Col lg="4" md="4" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
-                        <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Crypto</h4>
+                        <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Get Started</h4>
                         <ul className="list-unstyled footer-list mt-4">
                             {
                                 this.state.grid1.map((grid, key) =>
