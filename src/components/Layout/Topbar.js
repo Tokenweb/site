@@ -10,17 +10,39 @@ class Topbar extends Component {
         this.state = {
             isOpen : false,
             navLinks : [
-                { id : 1, title : "Stake", link : "/staking-portal" },
-                { id : 2, title : "Invest", link : "#",
+                { id : 1, title : "Products", link : "", isOpenSubMenu : false,
+                    child : [
+                        { title : "InterScan (in-development)", link : "#"  },
+
+                        { title : "Gabel (in-development)", link : "#" },
+
+                    ], },
+
+                { id : 2, title : "Services", link : "#",
 
                 isOpenSubMenu : false,
                     child : [
-                        { title : "Buy Crypto (Coming Soon)", link : "#"  },
+                        { title : "Staking", link : "/staking-portal"  },
 
-                        { title : "Explore Crypto Funds", link : "/Funds" },
+                        { title : "Filecoin Mining (Coming Soon)", link : "#" },
+
+                        { title : "Graph Network Indexer (Coming Soon)", link : "#" },
 
                     ],
                     },
+
+                    { id : 3, title : "Invest", link : "/Funds",
+
+                    isOpenSubMenu : false,
+                        child : [
+                            { title : "Token Fund", link : "/Funds"  },
+
+                            { title : "Staking Fund", link : "/Funds" },
+
+                            { title : "Yield Farming Fund", link : "/Funds" },
+
+                        ],
+                        },
 
                     // { id : 4, title : "Products", link : "/#", isOpenSubMenu : false,
                     // child : [
@@ -31,7 +53,7 @@ class Topbar extends Component {
                     //     ]
                     // },
 
-                { id : 3, title : "Learn", link : "/#", isOpenSubMenu : false,
+                { id : 4, title : "Learn", link : "/#", isOpenSubMenu : false,
                     child : [
 
                         { id : 1, title : "Blog", link : "/blog" },

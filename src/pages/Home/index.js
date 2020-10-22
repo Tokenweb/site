@@ -70,13 +70,14 @@ class Index extends Component {
         return (
             <React.Fragment>
                 {/* section */}
+                  <section className="">
                 <Section/>
 
-
+                </section>
 
 
                 {/* Feature */}
-                <section className="section">
+                <section className="section ">
 
 
                     {/* Start */}
