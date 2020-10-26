@@ -80,7 +80,7 @@ class Kava extends Component {
                                             <i className="mdi mdi-monitor mdi-24px float-left mr-3"></i>
                                             <div className="overflow-hidden d-block">
                                                 <h4 className="widget-title mb-0">Staking Reward</h4>
-                                                <p className="text-primary">~ 8.08% Annually</p>
+                                                <p className="text-primary">~ 6% Annually</p>
                                             </div>
                                         </div>
                                         <div className="widget">

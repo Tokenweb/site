@@ -10,13 +10,14 @@ class Topbar extends Component {
         this.state = {
             isOpen : false,
             navLinks : [
+
                 { id : 1, title : "Products", link : "", isOpenSubMenu : false,
                     child : [
                         { title : "InterScan (in-development)", link : "#"  },
 
                         { title : "Gabel (in-development)", link : "#" },
 
-                    ], },
+                    ], }, 
 
                 { id : 2, title : "Services", link : "#",
 

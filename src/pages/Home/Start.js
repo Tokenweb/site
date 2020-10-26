@@ -41,7 +41,7 @@ class Start extends Component {
                                 <div className="section-title ml-lg-5">
                                     <SectionTitleLeft
                                         title="About Us"
-                                        desc="Based in the European Union with a Global reach, Tokenweb.io was founded by industry veterans to create a safe and streamlined environement to reduce speculation and increase participation within the crypto industry."
+                                        desc="Based in the European Union, with a Global reach, TokenWeb was founded by industry veterans to create a safe and streamlined environement to reduce speculation and increase participation within the crypto industry."
                                         features={this.state.features}
                                         class = "h4 mr-2"
                                         />
@@ -57,7 +57,7 @@ class Start extends Component {
                                 <div className="section-title mr-lg-5">
                                 <SectionTitleLeft
                                     title="Products and Services"
-                                    desc="Our products,  and  focus on providing a simplified UX for complex inter-blockchain communication. Tokenweb.io services range from non-custodial staking services to fully managed investment funds depending on your experience and level of comfort."
+                                    desc="TokenWeb products focus on providing a simplified UX for complex inter-blockchain communication. Our services range from non-custodial staking services to fully managed investment funds depending on your experience and level of comfort."
                                     features={this.state.features2}
                                     class = "h4 mr-2"
                                     />

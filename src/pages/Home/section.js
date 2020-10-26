@@ -20,7 +20,7 @@ class Section extends Component {
                                         <div className="title-heading margin-top-100">
 
                                             <h1 className="heading mb-3">Optimise your Crypto Holdings</h1>
-                                            <p className="para-desc mx-auto text-muted">Tokenweb.io curates the top projects in the crypto industry and streamlines the process to monetise your portfolio.</p>
+                                            <p className="para-desc mx-auto text-muted">TokenWeb curates the top projects in the crypto industry and streamlines the process to monetise your portfolio.</p>
                                             <div className="mt-4 pt-2">
                                                 <Link to="/staking-portal" className="btn btn-primary">Get Started<i className="mdi mdi-chevron-right"></i></Link>
                                             </div>

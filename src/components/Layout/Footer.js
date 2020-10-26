@@ -19,7 +19,7 @@ class Footer extends Component {
         ],
         grid2 : [
             { title : "Blog", link : "./blog" },
-            { title : "Tutorials (Coming Soon)", link : "#" },
+
             { title : "Frequently Asked Questions", link : "./faq" },
 
 
@@ -64,7 +64,7 @@ class Footer extends Component {
                         <Row>
 
                             <Col lg="8">
-                                <Link to="./staking-portal" className="btn btn-primary rounded w-100">Stake</Link>
+                                <Link to="./staking-portal" className="btn btn-primary rounded w-100">Get Started</Link>
                             </Col>
                         </Row>
                     </Col>
