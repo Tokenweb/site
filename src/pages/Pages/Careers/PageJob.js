@@ -11,7 +11,7 @@ import Banner from "./banner";
 
 //Import Images
 import full from "../../../images/job/bg2.png";
-import Kava from "../../../images/job/kava.svg";
+
 import Cosmos from "../../../images/job/cosmos.svg";
 import EthereumGold from "../../../images/job/ethereum-gold.svg";
 import Polkadot from "../../../images/job/polkadoticon.png";
@@ -39,7 +39,7 @@ class PageJob extends Component {
             ],
             jobs : [
                 { id : 1, image : full, title : "Cosmos", time : "Active", cmpImage : Cosmos, cmpName : "Cosmos", Annual  : "2 Year", reward : "8.74%", field : "Information strategy" },
-                  { id : 4, image : full, title : "Kava", time : "Active", cmpImage : Kava, cmpName : "Kava", reward : "6%", workingHrs : "6hr", field : "Information strategy" },
+
                 { id : 2, image : full, title : "Ethereum", time : "Coming Soon", cmpImage : EthereumGold, cmpName : "Ethereum", reward : "7.15%", workingHrs : "6hr", field : "Information strategy" },
                 { id : 3, image : full, title : "Polkadot", time : "Coming Soon", cmpImage : Polkadot, cmpName : "Polkadot", reward : "6-14%", workingHrs : "6hr", field : "Information strategy" },
 

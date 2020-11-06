@@ -66,7 +66,7 @@ const PageInvoice = React.lazy(() => import('./pages/Pages/Account/page-invoice'
 //Career
 const PageJobsSidebar = React.lazy(() => import('./pages/Pages/Careers/page-jobs-sidebar'));
 const Cosmos = React.lazy(() => import('./pages/Pages/Careers/cosmos'));
-const Kava = React.lazy(() => import('./pages/Pages/Careers/kava'));
+
 
 const PageJob = React.lazy(() => import('./pages/Pages/Careers/PageJob'));
 const PageJobApply = React.lazy(() => import('./pages/Pages/Careers/page-job-apply'));
@@ -76,6 +76,7 @@ const PageJobCandidate = React.lazy(() => import('./pages/Pages/Careers/page-job
 //Blog
 const Blog = React.lazy(() => import('./pages/Pages/Blog/PageBlog'));
 const CosmosStakingBlog = React.lazy(() => import('./pages/Pages/Blog/introduction-to-staking-cosmos'));
+const KavaBlog = React.lazy(() => import('./pages/Pages/Blog/tokenweb-drops-support-for-kava'));
 const PageBlogDetail = React.lazy(() => import('./pages/Pages/Blog/PageBlogDetail'));
 const PageBlogSidebar = React.lazy(() => import('./pages/Pages/Blog/PageBlogSidebar'));
 
@@ -162,7 +163,7 @@ const routes = [
     { path: '/staking-portal', component: PageJob },
     { path: '/page-job-apply', component: PageJobApply },
     { path: '/cosmos-staking', component: Cosmos },
-    { path: '/kava-staking', component: Kava },
+
 
     { path: '/page-jobs-sidebar', component: PageJobsSidebar },
     { path: '/page-job-company', component: PageJobCompany },
@@ -173,6 +174,7 @@ const routes = [
     { path: '/page-blog-detail', component: PageBlogDetail },
     { path: '/page-blog-sidebar', component: PageBlogSidebar },
     { path: '/introduction-to-staking-cosmos', component: CosmosStakingBlog },
+    { path: '/tokenweb-drops-support-for-kava', component: KavaBlog },
 
 
     //Page Contact
