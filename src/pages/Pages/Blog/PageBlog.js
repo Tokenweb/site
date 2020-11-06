@@ -9,6 +9,7 @@ import BlogBox from "../../../components/Shared/blog-box";
 // import images
 import cosmosbg from '../../../images/blog/cosmosbg.png';
 import kavabg from '../../../images/blog/kavabg.png';
+import graphbg from '../../../images/blog/thegraph.png';
 
 
 
@@ -26,8 +27,8 @@ class Blog extends Component {
             ],
             blogs : [
                 { id : 1, image : cosmosbg, title : "Introduction to Staking Cosmos", autor : "Margarethe", link : "/introduction-to-staking-cosmos" },
-                { id : 2, image : kavabg, title : "TokenWeb drops support for Kava", link : "/tokenweb-drops-support-for-kava"  },
-                // { id : 3, image : blog03, title : "Smartest Applications for Business", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
+                { id : 2, image : kavabg, title : "TokenWeb Drops Support for Kava", link : "/tokenweb-drops-support-for-kava"  },
+              { id : 3, image : graphbg, title : "The Graph Enables the Decentralised Micro Economy", link : "/thegraph-enables-microeconomy"  },
                 // { id : 4, image : blog04, title : "Design your apps in your own way", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
                 // { id : 5, image : blog05, title : "How apps is changing the IT world", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
                 // { id : 6, image : blog06, title : "Smartest Applications for Business", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },

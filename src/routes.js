@@ -77,6 +77,7 @@ const PageJobCandidate = React.lazy(() => import('./pages/Pages/Careers/page-job
 const Blog = React.lazy(() => import('./pages/Pages/Blog/PageBlog'));
 const CosmosStakingBlog = React.lazy(() => import('./pages/Pages/Blog/introduction-to-staking-cosmos'));
 const KavaBlog = React.lazy(() => import('./pages/Pages/Blog/tokenweb-drops-support-for-kava'));
+const TheGraphBlog = React.lazy(() => import('./pages/Pages/Blog/thegraph-enables-microeconomy'));
 const PageBlogDetail = React.lazy(() => import('./pages/Pages/Blog/PageBlogDetail'));
 const PageBlogSidebar = React.lazy(() => import('./pages/Pages/Blog/PageBlogSidebar'));
 
@@ -175,6 +176,7 @@ const routes = [
     { path: '/page-blog-sidebar', component: PageBlogSidebar },
     { path: '/introduction-to-staking-cosmos', component: CosmosStakingBlog },
     { path: '/tokenweb-drops-support-for-kava', component: KavaBlog },
+      { path: '/thegraph-enables-microeconomy', component: TheGraphBlog },
 
 
     //Page Contact

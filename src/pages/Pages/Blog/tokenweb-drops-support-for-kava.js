@@ -82,7 +82,7 @@ class CosmosStakingBlog extends Component {
                                         <div className="content p-4">
 
                                             <p className=" mt-3">TokenWeb was a small and relatively early validator for the Kava Network. Months ago we ceased our Kava validator operations due to lack of interest. However, we planned to re-introduce it in the future as the protocol matured, and we have stayed active in the community being among the first users of all of their products and latest releases such as the Kava lending Platform and Hard Protocol (formerly harvest.io),</p>
-                                            <h6>Today we are announcing that we will NOT BE offering Kava or any of its related offerings at any point in the future.</h6>
+                                            <h6>Today we are announcing that we will NOT be offering Kava or any of its related offerings at any point in the future.</h6>
                                             <p className="">We have made this decision because our values here at TokenWeb do not align with those of Kava’s Founding Team. </p>
 
                                             <p className="">At TokenWeb we believe in open, permissionless, and transparent networks. This means that anyone can access, join, create and participate in the networks with no biases or censorship. The Kava platform by default is highly centralised. They must approve any application to be added to their network, much like a traditional app store. To this extent they have even been branded the “Apple store of Defi.”</p>
