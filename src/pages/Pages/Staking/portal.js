@@ -16,14 +16,7 @@ import Cosmos from "../../../images/job/cosmos.svg";
 import EthereumGold from "../../../images/job/ethereum-gold.svg";
 import Polkadot from "../../../images/job/polkadoticon.png";
 import Kyber from "../../../images/job/kyber.png";
-import Eslint from "../../../images/job/Eslint.svg";
-import Gitlab from "../../../images/job/Gitlab.svg";
-import Gradle from "../../../images/job/Gradle.svg";
-import Mg from "../../../images/job/Mg.svg";
-import Sketch from "../../../images/job/Sketch.svg";
-import Twilio from "../../../images/job/Twilio.svg";
-import Udemy from "../../../images/job/Udemy.svg";
-import Webhooks from "../../../images/job/Webhooks.svg";
+
 
 
 
