@@ -17,7 +17,7 @@ class Topbar extends Component {
 
                         { title : "Gabel (in-development)", link : "#" },
 
-                    ], }, 
+                    ], },
 
                 { id : 2, title : "Services", link : "#",
 
@@ -25,7 +25,7 @@ class Topbar extends Component {
                     child : [
                         { title : "Staking", link : "/staking-portal"  },
 
-                        { title : "Filecoin Mining (Coming Soon)", link : "#" },
+                        { title : "Filecoin Mining", link : "/filecoin" },
 
                         { title : "Graph Network Indexer (Coming Soon)", link : "#" },
 

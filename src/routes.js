@@ -10,6 +10,10 @@ const Funds = React.lazy(() => import('./pages/Home/funds'));
 const Cosmos = React.lazy(() => import('./pages/Pages/Staking/cosmos'));
 const StakingPortal = React.lazy(() => import('./pages/Pages/Staking/portal'));
 
+//filecoin
+const Filecoin = React.lazy(() => import('./pages/Pages/Filecoin/filecoin'));
+
+
 //Blog
 const Blog = React.lazy(() => import('./pages/Pages/Blog/blog'));
 const CosmosStakingBlog = React.lazy(() => import('./pages/Pages/Blog/introduction-to-staking-cosmos'));
@@ -37,6 +41,8 @@ const routes = [
 
 
     { path: '/staking-portal', component: StakingPortal },
+
+      { path: '/filecoin', component: Filecoin },
 
     { path: '/cosmos-staking', component: Cosmos },
 
