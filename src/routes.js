@@ -20,6 +20,7 @@ const CosmosStakingBlog = React.lazy(() => import('./pages/Pages/Blog/introducti
 const KavaBlog = React.lazy(() => import('./pages/Pages/Blog/tokenweb-drops-support-for-kava'));
 const TheGraphBlog = React.lazy(() => import('./pages/Pages/Blog/thegraph-enables-microeconomy'));
 const EthSecurity = React.lazy(() => import('./pages/Pages/Blog/eth-security'));
+const FilecoinBlog = React.lazy(() => import('./pages/Pages/Blog/filecoin-blog'));
 
 //FAQ
 const FAQ = React.lazy(() => import('./pages/Pages/Utility/Faq'));
@@ -53,6 +54,7 @@ const routes = [
     { path: '/tokenweb-drops-support-for-kava', component: KavaBlog },
       { path: '/thegraph-enables-microeconomy', component: TheGraphBlog },
       { path: '/defi-yields-ethereum-security', component: EthSecurity },
+      { path: '/filecoin-blog', component: FilecoinBlog },
 
     { path: '/Funds', component: Funds },
 
