@@ -12,6 +12,7 @@ import kavabg from '../../../images/blog/kavabg.png';
 import graphbg from '../../../images/blog/thegraph.png';
 import ethbg from '../../../images/blog/eth2.png';
 import filecoin from "../../../images/blog/filecoin.png";
+import eth from "../../../images/blog/ethereum.png";
 
 
 
@@ -33,7 +34,7 @@ class Blog extends Component {
               { id : 3, image : graphbg, title : "The Graph Enables the Decentralised Micro Economy", link : "/thegraph-enables-microeconomy"  },
                  { id : 4, image : ethbg, title : "DeFi's Impact on Ethereum 2.0 Security", link : "/defi-yields-ethereum-security" },
                 { id : 5, image : filecoin, title : "Read Before Mining Filecoin", link : "/filecoin-blog"  },
-                // { id : 6, image : blog06, title : "Smartest Applications for Business", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
+                { id : 6, image : eth, title : "A Simple Explanation of Ethereum", link : "/ethereum-explained"  },
                 // { id : 7, image : blog07, title : "Design your apps in your own way", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
                 // { id : 8, image : blog08, title : "How apps is changing the IT world", like : "33", comment : "08", autor : "Calvin Carlo", date : "13th August, 2019" },
             ]
