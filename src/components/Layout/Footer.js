@@ -11,7 +11,7 @@ class Footer extends Component {
     this.state = {
         grid1 : [
             { title : "Stake", link : "./staking-portal" },
-            { title : "Mine (Coming Soon)", link : "#" },
+            { title : "Mine", link : "./filecoin" },
             { title : "Invest", link : "./Funds" },
 
 
