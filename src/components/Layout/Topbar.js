@@ -11,60 +11,19 @@ class Topbar extends Component {
             isOpen : false,
             navLinks : [
 
-                { id : 1, title : "Products", link : "", isOpenSubMenu : false,
-                    child : [
-                        { title : "InterScan (in-development)", link : "#"  },
+                { id : 1, title : "About", link : "",
+                   },
 
-                        { title : "Gabel (in-development)", link : "#" },
+                { id : 2, title : "Projects", link : "",
+                      },
 
-                    ], },
+                { id : 3, title : "Staking", link : "/staking-portal",
+                         },
 
-                { id : 2, title : "Services", link : "#",
+              { id : 4, title : "Blog", link : "/blog",
+                            },
 
-                isOpenSubMenu : false,
-                    child : [
-                        { title : "Staking", link : "/staking-portal"  },
-
-                        { title : "Filecoin Mining", link : "/filecoin" },
-
-                        { title : "Graph Network Indexer (Coming Soon)", link : "#" },
-
-                    ],
-                    },
-
-                    { id : 3, title : "Invest", link : "/Funds",
-
-                    isOpenSubMenu : false,
-                        child : [
-                            { title : "Token Fund", link : "/Funds"  },
-
-                            { title : "Staking Fund", link : "/Funds" },
-
-                            { title : "Yield Farming Fund", link : "/Funds" },
-
-                        ],
-                        },
-
-                    // { id : 4, title : "Products", link : "/#", isOpenSubMenu : false,
-                    // child : [
-                    //     { title : "Staking Calculator", link : "/documentation"},
-                    //     { title : "Gabel Explorer", link : "/changelog"},
-                    //     { title : "Wallet", link : "/components"},
-                    //     { title : "Widget", link : "/widget"},
-                    //     ]
-                    // },
-
-                { id : 4, title : "Learn", link : "/#", isOpenSubMenu : false,
-                    child : [
-
-                        { id : 1, title : "Blog", link : "/blog" },
-
-
-                        { id : 2, title : "Frequently Asked Questions", link : "./faq"},
-                    ]
-
-
-                },
+            
 
             ]
          };

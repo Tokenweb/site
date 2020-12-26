@@ -19,8 +19,8 @@ class Section extends Component {
                                     <Col lg="12" className="text-center mt-0 mt-md-5 pt-0 pt-md-5">
                                         <div className="title-heading margin-top-100">
 
-                                            <h1 className="heading mb-3">Optimise your Crypto Holdings</h1>
-                                            <p className="para-desc mx-auto text-muted">TokenWeb curates the top projects in the crypto industry and streamlines the process to monetise your portfolio.</p>
+                                            <h1 className="heading mb-3">Put some tag line here</h1>
+                                            <p className="para-desc mx-auto text-muted">TokenWeb is a blockchain venture studio focused on staking innovations, web3 tooling, and interoperability.</p>
                                             <div className="mt-4 pt-2">
                                                 <Link to="/staking-portal" className="btn btn-primary">Get Started<i className="mdi mdi-chevron-right"></i></Link>
                                             </div>
