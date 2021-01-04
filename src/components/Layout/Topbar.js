@@ -14,7 +14,7 @@ class Topbar extends Component {
                 { id : 1, title : "About", link : "",
                    },
 
-                { id : 2, title : "Projects", link : "",
+                { id : 2, title : "Projects", link : "/projects",
                       },
 
                 { id : 3, title : "Staking", link : "/staking-portal",
@@ -23,7 +23,7 @@ class Topbar extends Component {
               { id : 4, title : "Blog", link : "/blog",
                             },
 
-            
+
 
             ]
          };

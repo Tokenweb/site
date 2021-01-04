@@ -12,7 +12,7 @@ class Footer extends Component {
         grid1 : [
             { title : "Stake Tokens", link : "./staking-portal" },
             { title : "Submit a Project", link : "./filecoin" },
-          
+
 
 
 
@@ -60,11 +60,11 @@ class Footer extends Component {
 
                     <Col lg="4" xs="12" className="mb-0 mb-md-4 pb-0 pb-md-2" name="footercolumn">
                         <Link className={this.props.isLight ? "logo-footer text-dark" : "logo-footer"} to="/">TokenWeb</Link>
-                        <p className={ this.props.isLight ? "mt-4 text-muted" : "mt-4"}>Our mission is to make complex crypto products simple to understand and available for everyone.</p>
+                        <p className={ this.props.isLight ? "mt-4 text-muted" : "mt-4"}>Our mission is to support transformative technologies.</p>
                         <Row>
 
                             <Col lg="8">
-                                <Link to="./staking-portal" className="btn btn-primary rounded w-100">Get Started</Link>
+                                <Link to="./staking-portal" className="btn btn-primary rounded w-100">Stake Now</Link>
                             </Col>
                         </Row>
                     </Col>

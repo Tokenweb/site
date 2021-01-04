@@ -19,10 +19,10 @@ class Section extends Component {
                                     <Col lg="12" className="text-center mt-0 mt-md-5 pt-0 pt-md-5">
                                         <div className="title-heading margin-top-100">
 
-                                            <h1 className="heading mb-3">Put some tag line here</h1>
+                                            <h1 className="heading mb-3">We support all things web3</h1>
                                             <p className="para-desc mx-auto text-muted">TokenWeb is a blockchain venture studio focused on staking innovations, web3 tooling, and interoperability.</p>
                                             <div className="mt-4 pt-2">
-                                                <Link to="/staking-portal" className="btn btn-primary">Get Started<i className="mdi mdi-chevron-right"></i></Link>
+                                                <a href="https://1m7jrkuztqm.typeform.com/to/VrLHpmwO" target="_blank" className="btn btn-primary">Apply for Funding<i className="mdi mdi-chevron-right"></i></a>
                                             </div>
                                         </div>
 

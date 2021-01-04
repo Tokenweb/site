@@ -6,6 +6,9 @@ const Root = React.lazy(() => import('./pages/Home/index'));
 // Funds
 const Funds = React.lazy(() => import('./pages/Home/funds'));
 
+//projects
+const Projects = React.lazy(() => import('./pages/Pages/Projects/index'));
+
 //Staking
 const Cosmos = React.lazy(() => import('./pages/Pages/Staking/cosmos'));
 const StakingPortal = React.lazy(() => import('./pages/Pages/Staking/portal'));
@@ -59,6 +62,7 @@ const routes = [
       { path: '/ethereum-explained', component: EthSimple },
 
     { path: '/Funds', component: Funds },
+      { path: '/projects', component: Projects },
 
     //Root
     { path: '/', component: Root, isWithoutLayout : true }

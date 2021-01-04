@@ -27,9 +27,7 @@ class Partners extends Component {
                             <Col id="partner4" lg="3" md="4" xs="12" className="text-center partnerLogo">
                                 <img src={img4} className="avatar" alt="polkadot transparent full text logo"/>
                             </Col>
-                            <Col id="partner4" lg="3" md="4" xs="12" className="text-center partnerLogo">
-                              <img src={filecoin} className="avatar" alt="polkadot transparent full text logo"/>
-                            </Col>
+
 
 
                         </Row>
@@ -43,12 +41,7 @@ class Partners extends Component {
                             <Col id="partner3" lg="3" md="4" xs="12" className="text-center partnerLogo">
                                 <img src={kyber} className="avatar" alt="ethereum transparent full text logo"/>
                             </Col>
-                            <Col id="partner4" lg="3" md="4" xs="12" className="text-center partnerLogo">
-                                <img src={bitcoin} className="avatar" alt="polkadot transparent full text logo"/>
-                            </Col>
-                            <Col id="partner4" lg="3" md="4" xs="12" className="text-center partnerLogo">
-                              <img src={uniswap} className="avatar" alt="polkadot transparent full text logo"/>
-                            </Col>
+
 
 
                         </Row>

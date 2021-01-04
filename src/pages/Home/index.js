@@ -92,7 +92,7 @@ class Index extends Component {
                 <section className="section bg-light mt-0 mt-md-5">
                     <Container>
                         {/* section title */}
-                        <SectionTitle title="Projects We Support" desc="We focus on projects within the Blockchain Ecosystem that have a high potential to change the world."/>
+                        <SectionTitle title="Staking Networks" desc="We participate in many staking ecosystems where we see a promising future."/>
 
                         {/* partners */}
                         <Partners/>
