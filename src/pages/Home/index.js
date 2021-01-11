@@ -1,18 +1,20 @@
 // React Basic and Bootstrap
 import React, { Component } from 'react';
-import { Container } from 'reactstrap';
 
 // Import images
 import user from '../../images/icon/user.svg';
 import calendar from '../../images/icon/calendar.svg';
 import sandClock from '../../images/icon/sand-clock.svg';
+import supportImg from '../../images/home/home-img-1.png';
+import projectImg from '../../images/home/home-img-2.png';
+import stakingImg from '../../images/home/home-img-3.png';
 
 // Import Generic Components
-import Section from "./section";
-import SectionTitle from "../../components/Shared/section-title";
+import SectionBlock from "../../components/Shared/blocks/SectionBlock";
+import PartnersBlock from "../../components/Shared/blocks/PartnersBlock";
+import SectionTitle from "../../components/Shared/section/title/section-title";
 import Partners from '../../components/Shared/Partners';
 import Feature from '../../components/Shared/Feature';
-import Start from './Start';
 
 
 class Index extends Component {
@@ -32,11 +34,6 @@ class Index extends Component {
         for(var i=0; i<featureBox.length; i++){
             featureBox[i].classList.remove("mt-5");
         }
-
-        var sectionTitles=document.getElementsByName("maintitle");
-        sectionTitles[0].classList.remove("mb-4");
-        sectionTitles[0].classList.remove("pb-2");
-        sectionTitles[0].classList.add("mb-60");
 
       }
 
@@ -70,36 +67,46 @@ class Index extends Component {
         return (
             <React.Fragment>
                 {/* section */}
-                  <section className="">
-                <Section/>
+                <SectionBlock
+                    title="We support all things WEB3"
+                    description="TokenWeb is a blockchain venture studio focused on staking innovations, web3 tooling, and interoperability."
+                    btnText="Apply For Funding"
+                    btnUrl="https://1m7jrkuztqm.typeform.com/to/VrLHpmwO"
+                    imgUrl={supportImg}
+                    imgAlt="support img"
+                />
 
-                </section>
+                <SectionBlock
+                    title="Projects"
+                    description="TokenWeb builds, funds, and supports early stage start ups."
+                    btnText="Explore Projects"
+                    btnUrl="https://1m7jrkuztqm.typeform.com/to/VrLHpmwO"
+                    imgUrl={projectImg}
+                    imgAlt="support img"
+                    isImgLeft
+                />
 
+                <SectionBlock
+                    title="Staking-as-a-Service"
+                    description="TokenWeb actively runs validators on major staking networks to secure 
+                    and govern the blockchains. Anyone can delegate their tokens to our 
+                    validators and share in the rewards."
+                    btnText="Stake Now"
+                    btnUrl="https://1m7jrkuztqm.typeform.com/to/VrLHpmwO"
+                    imgUrl={stakingImg}
+                    imgAlt="support img"
+                />
 
-                {/* Feature */}
-                <section className="section ">
-
-
-                    {/* Start */}
-                    <Start />
-
-                    {/* Client */}
-
-                </section>
-
+                {/* <SectionBlock
+                    title="Our Mission"
+                    description="TokenWeb supports transformative technologies which empower individuals and strive to create an inclusive future."
+                    imgUrl={supportImg}
+                    imgAlt="support img"
+                    isImgLeft
+                /> */}
 
                 {/* Partner */}
-                <section className="section bg-light mt-0 mt-md-5">
-                    <Container>
-                        {/* section title */}
-                        <SectionTitle title="Staking Networks" desc="We participate in many staking ecosystems where we see a promising future."/>
-
-                        {/* partners */}
-                        <Partners/>
-                    </Container>
-                </section>
-
-
+                <PartnersBlock  title="Staking Networks" description="We participate in many staking ecosystems where we see a promising future."/>
 
                 <div className="position-relative">
                         <div className="shape overflow-hidden text-footer">

@@ -2,39 +2,35 @@ import React, { Component } from "react";
 import { Row, Container } from "reactstrap";
 
 //Import Components
-import SectionTitle from "../../../components/Shared/section-title";
-import ProcessBox from "./ProjectsBox";
+import ProjectsBox from "./ProjectsBox";
 
 //Import Images
-import img1 from "../../../images/client/eth.png";
-import img2 from "../../../images/client/eth.png";
+import deStakeImg from "../../../images/projects/project-img-1.png";
+import fraktalImg from "../../../images/projects/project-img-2.png";
 
 
 class Process extends Component {
   state = {
     processArray: [
-      { title: "DeStake", icon: img1, desc: "Liquid, Incentivised Staking using derivatives.", link: "" },
-      { title: "Fraktal Hub", icon: img2, desc: "Governance and Staking technology for Fraktal Network", link: "" },
+      { title: "DeStake", icon: deStakeImg, desc: "Liquid, Incentivised Staking using derivatives.", link: "" },
+      { title: "Fraktal Hub", icon: fraktalImg, desc: "Governance and Staking technology for Fraktal Network", link: "" },
 
     ],
   };
   render() {
     return (
-      <React.Fragment>
-        <Container className="mt-100 mt-60">
-          {/* Section title */}
-          <SectionTitle
-            title="Projects"
-            desc="TokenWeb provides resources to help innovative ideas become reality. We build our own products and support passionate entrepreneurs. Everything we do is always 100% open-source and transparent."
-          />
-
-
-          <Row>
-            {/* Process Box */}
-            <ProcessBox data={this.state.processArray} />
-          </Row>
+      <div className="section-default">
+        <Container className="">
+          <div className="block-project">
+            <h1 className="block-project-title">Projects</h1>
+              <p className="block-project-desc">TokenWeb provides resources to help innovative ideas become reality. We build our own products and support passionate entrepreneurs. Everything we do is always 100% open-source and transparent.</p>
+              <Row>
+                <ProjectsBox data={this.state.processArray} />
+              </Row>
+              <a href="#" className="btn btn-lg btn-default">Submit Your Project</a>
+            </div>
         </Container>
-      </React.Fragment>
+      </div>
     );
   }
 }

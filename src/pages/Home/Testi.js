@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
 //Import Components
-import SectionTitle from "../../components/Shared/section-title";
+import SectionTitle from "../../components/Shared/section/title/section-title";
 
 //Slider
 import OwlCarousel from 'react-owl-carousel';

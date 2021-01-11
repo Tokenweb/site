@@ -32,14 +32,6 @@ class Index extends Component {
   render() {
     return (
       <React.Fragment>
-        {/* Hero Start */}
-
-
-
-
-
-
-
         <Projects />
       </React.Fragment>
     );
