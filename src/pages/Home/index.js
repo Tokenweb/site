@@ -10,52 +10,41 @@ import projectImg from '../../images/home/home-img-2.png';
 import stakingImg from '../../images/home/home-img-3.png';
 
 // Import Generic Components
+import SupportBlock from "../../components/Shared/blocks/SupportBlock";
 import SectionBlock from "../../components/Shared/blocks/SectionBlock";
 import PartnersBlock from "../../components/Shared/blocks/PartnersBlock";
-import SectionTitle from "../../components/Shared/section/title/section-title";
-import Partners from '../../components/Shared/Partners';
-import Feature from '../../components/Shared/Feature';
 
 
 class Index extends Component {
-
     constructor(props) {
         super(props);
         this.state = {
         }
     }
-
-
     componentDidMount() {
         document.body.classList = "";
         window.addEventListener("scroll", this.scrollNavigation, true);
-
         var featureBox = document.getElementsByClassName("features");
         for(var i=0; i<featureBox.length; i++){
             featureBox[i].classList.remove("mt-5");
         }
-
-      }
-
-       // Make sure to remove the DOM listener when the component is unmounted.
-     componentWillUnmount() {
+    }
+    // Make sure to remove the DOM listener when the component is unmounted.
+    componentWillUnmount() {
         window.removeEventListener("scroll", this.scrollNavigation, true);
-     }
-
-      scrollNavigation = () => {
-          var doc = document.documentElement;
-          var top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
-          if(top > 80)
-          {
-               document.getElementById('topnav').classList.add('nav-sticky');
-          }
-          else
-          {
-            document.getElementById('topnav').classList.remove('nav-sticky');
-          }
-      }
-
-
+    }
+    scrollNavigation = () => {
+        var doc = document.documentElement;
+        var top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
+        if(top > 40)
+        {
+            document.getElementById('topnav').classList.add('nav-sticky');
+        }
+        else
+        {
+        document.getElementById('topnav').classList.remove('nav-sticky');
+        }
+    }
     render() {
 
         const featureArray = [
@@ -67,11 +56,10 @@ class Index extends Component {
         return (
             <React.Fragment>
                 {/* section */}
+                <SupportBlock />
                 <SectionBlock
-                    title="We support all things WEB3"
-                    description="TokenWeb is a blockchain venture studio focused on staking innovations, web3 tooling, and interoperability."
-                    btnText="Apply For Funding"
-                    btnUrl="https://1m7jrkuztqm.typeform.com/to/VrLHpmwO"
+                    title="Our Mission"
+                    description="TokenWeb supports transformative technologies which empower individuals and strive to create an inclusive future."
                     imgUrl={supportImg}
                     imgAlt="support img"
                 />

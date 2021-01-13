@@ -7,15 +7,14 @@ class ProjectsBox extends Component {
     return (
       <React.Fragment>
         {this.props.data.map((process, key) => (
-          <Col md="6" xs="12" key={key} className="project">
+          <Col lg="6" xs="12" key={key} className="project">
             <Link to={process.link}>
               <div className="project-box">
                 <div className="project-box-img-holder">
                     <img
                       src={process.icon}
-                      height="100"
                       className="project-box-img"
-                      alt=""
+                      alt="project pic"
                     />
                 </div>
                 <h5 className="project-box-title">{process.title}</h5>

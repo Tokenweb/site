@@ -34,7 +34,7 @@ class App extends Component {
           </div>
       </div>
     );
-}
+  }
   render() {
 
     return (

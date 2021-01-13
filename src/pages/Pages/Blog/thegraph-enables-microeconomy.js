@@ -1,6 +1,7 @@
 // React Basic and Bootstrap
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import MetaTags from 'react-meta-tags';
 import { Container, Row, Col, Alert, Form, FormGroup, Label, Button, Input } from 'reactstrap';
 
 //Import components
@@ -53,7 +54,7 @@ class CosmosStakingBlog extends Component {
     scrollNavigation = () => {
         var doc = document.documentElement;
         var top = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
-        if (top > 80) {
+        if (top > 40) {
             document.getElementById('topnav').classList.add('nav-sticky');
         }
         else {
@@ -65,9 +66,13 @@ class CosmosStakingBlog extends Component {
 
         return (
             <React.Fragment>
+                <MetaTags>
+                    <title>The Graph Enables the Decentralised Micro Economy</title>
+                    <meta name="description" content="Some description." />
+                </MetaTags>
                 {/* breadcrumb */}
                 <PageBreadcrumb pathItems = {this.state.pathItems}>
-                    <h2> The Graph Enables the Decentralised Micro Economy</h2>
+                    <h2>The Graph Enables the Decentralised Micro Economy</h2>
 
                 </PageBreadcrumb>
 
@@ -76,7 +81,7 @@ class CosmosStakingBlog extends Component {
                         <Row>
                             <Col lg="12" md="12">
                                 <div className="mr-lg-3">
-                                    <div className="blog position-relative overflow-hidden shadow rounded">
+                                    <div className="blog-single position-relative">
                                         <div className="position-relative">
                                             <img src={thegraph} className="img-fluid rounded-top" alt=""/>
                                         </div>

@@ -1,3 +1,21 @@
+// BLOCKS SUPPORT
+
+.block-support {
+  padding-top: 70px;
+  text-align: center;
+  @media (max-width: 768px) {
+    text-align: left;
+  }
+}
+
+.block-support-title {
+  margin-bottom: 20px;
+}
+
+.block-support-text {
+  margin-bottom: 40px;
+}
+
 // BLOCK PARTNERS
 
 .block-partners {
@@ -21,9 +39,13 @@
 .block-section-title {
   margin-bottom: 20px;
   box-sizing: border-box;
+  @media (max-width: 991px) {
+    margin: 20px 0 10px;
+  }
 }
 
 .block-section-desc {
+  max-width: 500px;
   margin-bottom: 40px;
   box-sizing: border-box;
 }
@@ -31,8 +53,8 @@
 // BLOCK PROJECT
 
 .block-project {
-  text-align: center;
   padding-bottom: 120px;
+  text-align: center;
   box-sizing: border-box;
 }
 
@@ -42,28 +64,58 @@
 }
 
 .block-project-desc {
-  margin-bottom: 40px;
+  max-width: 600px;
+  margin: 0 auto 40px;
   box-sizing: border-box;
 }
 
 .project {
-  margin-bottom: 111px;
+  margin-bottom: 50px;
   box-sizing: border-box;
+
+  &:first-child {
+    --box-margin: 0 0 0 auto;
+    padding-right: 20px;
+    @media (max-width: 992px) {
+      --box-margin: 0 auto;
+      padding: 0;
+    }
+  }
+
+  &:nth-child(2) {
+    --box-margin: 0 auto 0 0;
+    padding-left: 20px;
+    @media (max-width: 992px) {
+      --box-margin: 0 auto;
+      padding: 0;
+    }
+  }
 }
 
 .project-box {
-  width: 480px;
-  margin: 0 auto;
+  width: 75%;
   padding: 33px 0 40px 0;
-  border: 1px solid $primary;
+  border: 3px solid $primary;
   border-radius: 36px;
   box-shadow: $shadow-light;
+  transition: transform ease-in-out 0.2s;
   box-sizing: border-box;
+  margin: var(--box-margin);
+
+  &:hover {
+    transform: translateY(-15px);
+  }
 }
 
 .project-box-img-holder {
-  margin-bottom: 55px;
+  height: 160px;
+  margin-bottom: 25px;
   box-sizing: border-box;
+}
+
+.project-box-img {
+  height: 100%;
+  width: auto;
 }
 
 .project-box-title {
@@ -72,6 +124,8 @@
 }
 
 .project-box-text {
+  margin: 0 auto;
+  max-width: 70%;
   font-size: 16px;
   color: $black;
 }
@@ -106,9 +160,14 @@
 
   &.mod-active {
     border-color: $primary;
+
     &:hover .block-network-status.mod-active {
       background-color: $primary;
       color: $white;
+    }
+
+    .block-network-img-holder {
+      border-color: $primary;
     }
   }
 

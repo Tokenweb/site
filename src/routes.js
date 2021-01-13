@@ -16,6 +16,8 @@ const StakingPortal = React.lazy(() => import('./pages/Pages/Staking/portal'));
 //filecoin
 const Filecoin = React.lazy(() => import('./pages/Pages/Filecoin/filecoin'));
 
+const About = React.lazy(() => import('./pages/Pages/About/index.js'));
+
 
 //Blog
 const Blog = React.lazy(() => import('./pages/Pages/Blog/blog'));
@@ -45,10 +47,12 @@ const routes = [
 
     { path: '/faq', component: FAQ },
 
+    { path: '/about', component: About },
+
 
     { path: '/staking-portal', component: StakingPortal },
 
-      { path: '/filecoin', component: Filecoin },
+    { path: '/filecoin', component: Filecoin },
 
     { path: '/cosmos-staking', component: Cosmos },
 
@@ -56,13 +60,13 @@ const routes = [
 
     { path: '/introduction-to-staking-cosmos', component: CosmosStakingBlog },
     { path: '/tokenweb-drops-support-for-kava', component: KavaBlog },
-      { path: '/thegraph-enables-microeconomy', component: TheGraphBlog },
-      { path: '/defi-yields-ethereum-security', component: EthSecurity },
-      { path: '/filecoin-blog', component: FilecoinBlog },
-      { path: '/ethereum-explained', component: EthSimple },
+    { path: '/thegraph-enables-microeconomy', component: TheGraphBlog },
+    { path: '/defi-yields-ethereum-security', component: EthSecurity },
+    { path: '/filecoin-blog', component: FilecoinBlog },
+    { path: '/ethereum-explained', component: EthSimple },
 
     { path: '/Funds', component: Funds },
-      { path: '/projects', component: Projects },
+    { path: '/projects', component: Projects },
 
     //Root
     { path: '/', component: Root, isWithoutLayout : true }

@@ -11,19 +11,13 @@ class Topbar extends Component {
             isOpen : false,
             navLinks : [
 
-                { id : 1, title : "About", link : "",
-                   },
+                { id : 1, title : "About", link : "/about"},
 
-                { id : 2, title : "Projects", link : "/projects",
-                      },
+                { id : 2, title : "Projects", link : "/projects"},
 
-                { id : 3, title : "Staking", link : "/staking-portal",
-                         },
+                { id : 3, title : "Staking", link : "/staking-portal"},
 
-              { id : 4, title : "Blog", link : "/blog",
-                            },
-
-
+                { id : 4, title : "Blog", link : "/blog"},
 
             ]
          };

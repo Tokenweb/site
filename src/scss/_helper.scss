@@ -4,6 +4,11 @@
 
 .section-default {
   padding-top: 120px;
+
+  &:last-child,
+  &:only-child {
+    padding-bottom: 120px;
+  }
 }
 
 .section-first {

@@ -1,6 +1,7 @@
 // React Basic and Bootstrap
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import MetaTags from 'react-meta-tags';
 import { Container, Row, Col, Alert, Form, FormGroup, Label, Button, Input } from 'reactstrap';
 
 //Import components
@@ -47,7 +48,7 @@ class EthSecurity extends Component {
     scrollNavigation = () => {
         var doc = document.documentElement;
         var top = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
-        if (top > 80) {
+        if (top > 40) {
             document.getElementById('topnav').classList.add('nav-sticky');
         }
         else {
@@ -59,6 +60,10 @@ class EthSecurity extends Component {
 
         return (
             <React.Fragment>
+                <MetaTags>
+                    <title>A Simple Explanation of Ethereum</title>
+                    <meta name="description" content="Some description." />
+                </MetaTags>
                 {/* breadcrumb */}
                 <PageBreadcrumb pathItems = {this.state.pathItems}>
                     <h2>A Simple Explanation of Ethereum</h2>
@@ -70,11 +75,11 @@ class EthSecurity extends Component {
                         <Row>
                             <Col lg="12" md="12">
                                 <div className="mr-lg-3">
-                                    <div className="blog position-relative overflow-hidden shadow rounded">
+                                    <div className="blog-single position-relative">
                                         <div className="position-relative">
                                             <img src={eth} className="img-fluid rounded-top" alt=""/>
                                         </div>
-                                        <div className="content p-4">
+                                        <div className="content pb-4 pt-4">
 
                                           <h6>Ethereum is a new way to run applications, specifically the back-end and business logic. </h6>
                                           <h6>How do Web Applications currently operate?</h6>
