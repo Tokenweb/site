@@ -55,7 +55,6 @@ class Index extends Component {
 
         return (
             <React.Fragment>
-                {/* section */}
                 <SupportBlock />
                 <SectionBlock
                     title="Our Mission"
@@ -63,35 +62,26 @@ class Index extends Component {
                     imgUrl={supportImg}
                     imgAlt="support img"
                 />
-
                 <SectionBlock
                     title="Projects"
                     description="TokenWeb builds, funds, and supports early stage start ups."
                     btnText="Explore Projects"
-                    btnUrl="https://1m7jrkuztqm.typeform.com/to/VrLHpmwO"
                     imgUrl={projectImg}
                     imgAlt="support img"
                     isImgLeft
+                    toPageLink="/projects"
                 />
-
                 <SectionBlock
                     title="Staking-as-a-Service"
                     description="TokenWeb actively runs validators on major staking networks to secure 
                     and govern the blockchains. Anyone can delegate their tokens to our 
                     validators and share in the rewards."
                     btnText="Stake Now"
-                    btnUrl="https://1m7jrkuztqm.typeform.com/to/VrLHpmwO"
                     imgUrl={stakingImg}
                     imgAlt="support img"
-                />
+                    toPageLink="/staking-portal"
 
-                {/* <SectionBlock
-                    title="Our Mission"
-                    description="TokenWeb supports transformative technologies which empower individuals and strive to create an inclusive future."
-                    imgUrl={supportImg}
-                    imgAlt="support img"
-                    isImgLeft
-                /> */}
+                />
 
                 {/* Partner */}
                 <PartnersBlock  title="Staking Networks" description="We participate in many staking ecosystems where we see a promising future."/>

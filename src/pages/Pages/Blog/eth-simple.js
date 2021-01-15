@@ -62,7 +62,8 @@ class EthSecurity extends Component {
             <React.Fragment>
                 <MetaTags>
                     <title>A Simple Explanation of Ethereum</title>
-                    <meta name="description" content="Some description." />
+                    <meta name="description" content="Learn the basics of why people see so much potential in Ethereum." />
+                    <meta name="keywords" content="Staking, Ethereum, defi, eth2, eth, blockchain, pos, proof of stake, crypto, stake, tokens, crypto, tokenweb, validator" />
                 </MetaTags>
                 {/* breadcrumb */}
                 <PageBreadcrumb pathItems = {this.state.pathItems}>

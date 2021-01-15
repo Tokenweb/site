@@ -68,7 +68,8 @@ class CosmosStakingBlog extends Component {
             <React.Fragment>
                 <MetaTags>
                     <title>Read Before Mining Filecoin</title>
-                    <meta name="description" content="Some description." />
+                    <meta name="description" content="Read before mining filecoin." />
+                    <meta name="keywords" content="Staking, filecoin, mining, blockchain, pos, proof of stake, crypto, stake, tokens, crypto, tokenweb, validator" />
                 </MetaTags>
                 {/* breadcrumb */}
                 <PageBreadcrumb pathItems = {this.state.pathItems}>

@@ -22,7 +22,7 @@ h6,
 .h6 {
   font-family: $font-family-base;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 200;
 }
 ::selection {
   background: lighten($primary, 5%);
@@ -34,4 +34,5 @@ a {
 p {
   line-height: 1.6;
   margin-bottom: 0;
+  font-size: 20px;
 }

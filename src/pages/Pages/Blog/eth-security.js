@@ -58,7 +58,8 @@ class EthSecurity extends Component {
             <React.Fragment>
                 <MetaTags>
                     <title>DeFi's Impact on Ethereum 2.0 Security</title>
-                    <meta name="description" content="Some description." />
+                    <meta name="description" content="Will DeFi yields have an impact on the security of Ethereum2.0?" />
+                    <meta name="keywords" content="Staking, Ethereum, defi, eth2, eth, blockchain, pos, proof of stake, crypto, stake, tokens, crypto, tokenweb, validator" />
                 </MetaTags>
                 {/* breadcrumb */}
                 <PageBreadcrumb pathItems = {this.state.pathItems}>

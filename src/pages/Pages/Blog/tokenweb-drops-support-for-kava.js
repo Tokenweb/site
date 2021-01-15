@@ -62,7 +62,8 @@ class CosmosStakingBlog extends Component {
             <React.Fragment>
                 <MetaTags>
                     <title>TokenWeb Drops Support for Kava</title>
-                    <meta name="description" content="Some description." />
+                    <meta name="description" content="TokenWeb drops support for Kava." />
+                    <meta name="keywords" content="kava, blockchain, staking, defi, fraud, scam, negative, review, hard protocol, harvest" />
                 </MetaTags>
                 {/* breadcrumb */}
                 <PageBreadcrumb pathItems = {this.state.pathItems}>

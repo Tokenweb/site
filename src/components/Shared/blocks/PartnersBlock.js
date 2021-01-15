@@ -5,9 +5,9 @@ import classNames from 'classnames';
 import Partners from '../Partners';
 
 
-function PartnersBlock({ title, description, imgUrl, imgAlt, isImgLeft, btnText, btnUrl, isBackground }) {
+function PartnersBlock({ title, description }) {
     return (
-      <section className="section-default section-first bg-light">
+      <section className="section-default section-first bg-primary-default">
         <Container>
           <div className="block-partners">
             <h1 className="block-partners-title">{title}</h1>

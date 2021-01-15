@@ -64,7 +64,8 @@ class CosmosStakingBlog extends Component {
             <React.Fragment>
                 <MetaTags>
                     <title>Introduction to Staking Cosmos</title>
-                    <meta name="description" content="Some description." />
+                    <meta name="description" content="Learn everything you need to know to get started earning ATOMs by staking on Cosmos Network." />
+                    <meta name="keywords" content="Staking, cosmos, blockchain, pos, proof of stake, crypto, stake, tokens, crypto, tokenweb, validator" />
                 </MetaTags>
                 {/* breadcrumb */}
                 <PageBreadcrumb pathItems = {this.state.pathItems}>

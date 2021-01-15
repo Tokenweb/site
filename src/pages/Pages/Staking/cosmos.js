@@ -52,7 +52,7 @@ class Cosmos extends Component {
                 </PageBreadcrumb>
 
 
-                <section className="section-default">
+                <section className="section-default section-cosmos">
                     <Container>
                         <Row>
                             <Col lg="4" md="5" xs="12">

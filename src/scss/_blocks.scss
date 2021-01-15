@@ -27,11 +27,50 @@
 .block-partners-title {
   margin-bottom: 20px;
   box-sizing: border-box;
+  color: $white;
 }
 
 .block-partners-desc {
   margin-bottom: 40px;
   box-sizing: border-box;
+  color: $white;
+}
+
+.partners-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  @media (max-width: 1200px) {
+    gap: 70px;
+    justify-content: center;
+  }
+}
+
+.partner-logo {
+  height: auto;
+  &.mod-cosmos {
+    width: 198px;
+  }
+  &.mod-eth {
+    width: 98px;
+  }
+  &.mod-polkadot {
+    width: 209px;
+  }
+  &.mod-graph {
+    width: 115px;
+  }
+  &.mod-kyber {
+    width: 140px;
+  }
+}
+
+.partner-logo-img {
+  width: 100%;
 }
 
 // BLOCK SECTION
@@ -67,6 +106,18 @@
   max-width: 600px;
   margin: 0 auto 40px;
   box-sizing: border-box;
+}
+
+.block-section-desc-break {
+  margin-bottom: 20px;
+}
+
+.block-section-desc-hyper-text {
+  margin-top: 20px;
+}
+
+.block-section-desc-hyper {
+  color: $primary;
 }
 
 .project {

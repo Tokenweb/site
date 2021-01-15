@@ -12,8 +12,8 @@ import fraktalImg from "../../../images/projects/project-img-2.png";
 class Process extends Component {
   state = {
     processArray: [
-      { title: "DeStake", icon: deStakeImg, desc: "Liquid, Incentivised Staking using derivatives.", link: "" },
-      { title: "Fraktal Hub", icon: fraktalImg, desc: "Governance and Staking technology for Fraktal Network", link: "" },
+      { title: "DeStake", icon: deStakeImg, desc: "Liquid, Incentivised Staking using derivatives.", link: "https://destake.io" },
+      { title: "Fraktal Hub", icon: fraktalImg, desc: "Governance and Staking technology for Fraktal Network", link: "https://fraktal.network" },
 
     ],
   };
@@ -27,7 +27,7 @@ class Process extends Component {
               <Row>
                 <ProjectsBox data={this.state.processArray} />
               </Row>
-              <a href="#" className="btn btn-lg btn-default">Submit Your Project</a>
+              <a href="https://1m7jrkuztqm.typeform.com/to/VrLHpmwO" className="btn btn-lg btn-default">Submit Your Project</a>
             </div>
         </Container>
       </div>
