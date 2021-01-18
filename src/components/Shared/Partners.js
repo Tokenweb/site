@@ -1,50 +1,34 @@
 import React, { Component } from 'react';
-import { Row, Col } from "reactstrap";
+import { Row, div } from "reactstrap";
 
 //Import Images
-import img1 from "../../images/client/cosmos.png";
-import img3 from "../../images/client/eth.png";
-import img4 from "../../images/client/polkadot.png"
-import filecoin from "../../images/client/Filecoin-logo.png"
-import graph from "../../images/client/graph.png"
-import kyber from "../../images/client/kyber.png"
-import bitcoin from "../../images/client/bitcoin.png"
-import uniswap from "../../images/client/uniswap.png"
+import cosmosImg from "../../images/client/cosmos-white.png";
+import ethImg from "../../images/client/eth-white.png";
+import polkadotImg from "../../images/client/polkadot-white.png"
+import graphImg from "../../images/client/graph-white.png"
+import kyberImg from "../../images/client/kyber-white.png"
 
 class Partners extends Component {
     render() {
         return (
             <React.Fragment>
-                        <Row className="justify-content-center" id="partners">
-                            <Col id="partner1" lg="3" md="4" xs="12" className="text-center partnerLogo">
-                              <img src={img1} className="avatar" alt="cosmos transparent full text logo"/>
-                            </Col>
-
-
-                            <Col id="partner3" lg="3" md="4" xs="12" className="text-center partnerLogo">
-                                <img src={img3} className="avatar" alt="ethereum transparent full text logo"/>
-                            </Col>
-                            <Col id="partner4" lg="3" md="4" xs="12" className="text-center partnerLogo">
-                                <img src={img4} className="avatar" alt="polkadot transparent full text logo"/>
-                            </Col>
-
-
-
-                        </Row>
-
-                        <Row className="justify-content-center" id="partners">
-                            <Col id="partner1" lg="3" md="4" xs="12" className="text-center partnerLogo">
-                              <img src={graph} className="avatar" alt="cosmos transparent full text logo"/>
-                            </Col>
-
-
-                            <Col id="partner3" lg="3" md="4" xs="12" className="text-center partnerLogo">
-                                <img src={kyber} className="avatar" alt="ethereum transparent full text logo"/>
-                            </Col>
-
-
-
-                        </Row>
+                        <div className="partners-box" id="partners">
+                            <div id="partner1" className="text-center partner-logo mod-cosmos">
+                              <img src={cosmosImg} className="partner-logo-img" alt="cosmos-logo"/>
+                            </div>
+                            <div id="partner2"  className="text-center partner-logo mod-eth">
+                                <img src={ethImg} className="partner-logo-img" alt="ethereum-logo"/>
+                            </div>
+                            <div id="partner3"  className="text-center partner-logo mod-polkadot">
+                                <img src={polkadotImg} className="partner-logo-img" alt="polkadot-logo"/>
+                            </div>
+                            <div id="partner4"  className="text-center partner-logo mod-cosmos">
+                              <img src={graphImg} className="partner-logo-img" alt="graph-logo"/>
+                            </div>
+                            <div id="partner5"  className="text-center partner-logo mod-kyber">
+                                <img src={kyberImg} className="partner-logo-img" alt="kyber-logo"/>
+                            </div>
+                        </div>
 
             </React.Fragment>
         );

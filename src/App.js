@@ -34,7 +34,7 @@ class App extends Component {
           </div>
       </div>
     );
-}
+  }
   render() {
 
     return (
@@ -43,8 +43,7 @@ class App extends Component {
         <Suspense fallback = {this.Loader()} >
             <Switch>
             {routes.map((route, idx) =>
-            
-                  <Route path={route.path} component={withLayout(route.component)} key={idx} />
+              <Route path={route.path} component={withLayout(route.component)} key={idx} />
             )}
             </Switch>
             </Suspense>

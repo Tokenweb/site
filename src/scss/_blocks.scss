@@ -1,0 +1,276 @@
+// BLOCKS SUPPORT
+
+.block-support {
+  padding-top: 70px;
+  text-align: center;
+  @media (max-width: 768px) {
+    text-align: left;
+  }
+}
+
+.block-support-title {
+  margin-bottom: 20px;
+}
+
+.block-support-text {
+  margin-bottom: 40px;
+}
+
+// BLOCK PARTNERS
+
+.block-partners {
+  text-align: center;
+  padding-bottom: 120px;
+  box-sizing: border-box;
+}
+
+.block-partners-title {
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  color: $white;
+}
+
+.block-partners-desc {
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  color: $white;
+}
+
+.partners-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  @media (max-width: 1200px) {
+    gap: 70px;
+    justify-content: center;
+  }
+}
+
+.partner-logo {
+  height: auto;
+  &.mod-cosmos {
+    width: 198px;
+  }
+  &.mod-eth {
+    width: 98px;
+  }
+  &.mod-polkadot {
+    width: 209px;
+  }
+  &.mod-graph {
+    width: 115px;
+  }
+  &.mod-kyber {
+    width: 140px;
+  }
+}
+
+.partner-logo-img {
+  width: 100%;
+}
+
+// BLOCK SECTION
+
+.block-section-title {
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  @media (max-width: 991px) {
+    margin: 20px 0 10px;
+  }
+}
+
+.block-section-desc {
+  max-width: 500px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+}
+
+// BLOCK PROJECT
+
+.block-project {
+  padding-bottom: 120px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.block-project-title {
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.block-project-desc {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  box-sizing: border-box;
+}
+
+.block-section-desc-break {
+  margin-bottom: 20px;
+}
+
+.block-section-desc-hyper-text {
+  margin-top: 20px;
+}
+
+.block-section-desc-hyper {
+  color: $primary;
+}
+
+.project {
+  margin-bottom: 50px;
+  box-sizing: border-box;
+
+  &:first-child {
+    --box-margin: 0 0 0 auto;
+    padding-right: 20px;
+    @media (max-width: 992px) {
+      --box-margin: 0 auto;
+      padding: 0;
+    }
+  }
+
+  &:nth-child(2) {
+    --box-margin: 0 auto 0 0;
+    padding-left: 20px;
+    @media (max-width: 992px) {
+      --box-margin: 0 auto;
+      padding: 0;
+    }
+  }
+}
+
+.project-box {
+  width: 75%;
+  padding: 33px 0 40px 0;
+  border: 3px solid $primary;
+  border-radius: 36px;
+  box-shadow: $shadow-light;
+  transition: transform ease-in-out 0.2s;
+  box-sizing: border-box;
+  margin: var(--box-margin);
+
+  &:hover {
+    transform: translateY(-15px);
+  }
+}
+
+.project-box-img-holder {
+  height: 160px;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+}
+
+.project-box-img {
+  height: 100%;
+  width: auto;
+}
+
+.project-box-title {
+  font-size: 26px;
+  color: $black;
+}
+
+.project-box-text {
+  margin: 0 auto;
+  max-width: 70%;
+  font-size: 16px;
+  color: $black;
+}
+
+.block-network {
+  text-align: center;
+}
+
+.block-network-title {
+  margin-bottom: 109px;
+  box-sizing: border-box;
+}
+
+.block-network-container {
+  margin-bottom: 98px;
+  box-sizing: border-box;
+}
+
+.block-network-box {
+  position: relative;
+  text-align: center;
+  padding: 77px 0 54px;
+  border: 3px solid #e5e5e5;
+  box-shadow: 0px 4px 3px 2px #e5e5e5;
+  border-radius: 36px;
+  box-sizing: border-box;
+  transition: all ease-in-out 0.2s;
+
+  &:hover {
+    transform: translateY(-5%);
+  }
+
+  &.mod-active {
+    border-color: $primary;
+
+    &:hover .block-network-status.mod-active {
+      background-color: $primary;
+      color: $white;
+    }
+
+    .block-network-img-holder {
+      border-color: $primary;
+    }
+  }
+
+  &.mod-disabled {
+    cursor: default;
+  }
+}
+
+.block-network-img-holder {
+  position: absolute;
+  top: -53px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 0;
+  width: 106px;
+  height: 106px;
+  border-radius: 50%;
+  border: 3px solid #e5e5e5;
+  background-color: $white;
+  box-sizing: border-box;
+}
+
+.block-network-img {
+  width: auto;
+  height: 100%;
+  filter: grayscale(100%);
+}
+
+.block-network-box-title {
+  color: $black;
+  margin-bottom: 16px;
+  font-size: 40px;
+}
+
+.block-network-box-text {
+  color: $black;
+}
+
+a.block-network-status,
+.block-network-status {
+  display: inline-block;
+  padding: 7px 15px;
+  margin: 0 auto;
+  color: #000000;
+  margin-top: 36px;
+  transition: all ease-in-out 0.2s;
+
+  &.mod-active {
+    border: 1px solid #e5e5e5;
+    border-radius: 7px;
+  }
+}

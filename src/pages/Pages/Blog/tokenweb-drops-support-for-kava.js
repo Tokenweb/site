@@ -2,6 +2,7 @@
 // React Basic and Bootstrap
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import MetaTags from 'react-meta-tags';
 import { Container, Row, Col, Alert, Form, FormGroup, Label, Button, Input } from 'reactstrap';
 
 //Import components
@@ -27,34 +28,27 @@ class CosmosStakingBlog extends Component {
         this.state = {
             pathItems : [
                 //id must required
-
-
             ],
-
-
             successMsg : false
         }
         this.handleSubmit = this.handleSubmit.bind(this);
     }
-
     handleSubmit(event) {
         event.preventDefault();
         this.setState({successMsg : true});
     }
-
     componentDidMount() {
         document.body.classList = "";
         window.addEventListener("scroll", this.scrollNavigation, true);
     }
-
      // Make sure to remove the DOM listener when the component is unmounted.
-     componentWillUnmount() {
-        window.removeEventListener("scroll",this.scrollNavigation, true);
-     }
+    componentWillUnmount() {
+    window.removeEventListener("scroll",this.scrollNavigation, true);
+    }
     scrollNavigation = () => {
         var doc = document.documentElement;
         var top = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
-        if (top > 80) {
+        if (top > 40) {
             document.getElementById('topnav').classList.add('nav-sticky');
         }
         else {
@@ -66,20 +60,23 @@ class CosmosStakingBlog extends Component {
 
         return (
             <React.Fragment>
+                <MetaTags>
+                    <title>TokenWeb Drops Support for Kava</title>
+                    <meta name="description" content="TokenWeb drops support for Kava." />
+                    <meta name="keywords" content="kava, blockchain, staking, defi, fraud, scam, negative, review, hard protocol, harvest" />
+                </MetaTags>
                 {/* breadcrumb */}
                 <PageBreadcrumb pathItems = {this.state.pathItems}>
                     <h2>TokenWeb Drops Support for Kava</h2>
-
                 </PageBreadcrumb>
-
                 <section className="section">
                     <Container>
                         <Row>
                             <Col lg="12" md="12">
                                 <div className="mr-lg-3">
-                                    <div className="blog position-relative overflow-hidden shadow rounded">
+                                    <div className="blog-single position-relative">
 
-                                        <div className="content p-4">
+                                        <div className="content pt-4 pb-4">
 
                                             <p className=" mt-3">TokenWeb was a small and relatively early validator for the Kava Network. Months ago we ceased our Kava validator operations due to lack of interest. However, we planned to re-introduce it in the future as the protocol matured, and we have stayed active in the community being among the first users of all of their products and latest releases such as the Kava lending Platform and Hard Protocol (formerly harvest.io),</p>
                                             <h6>Today we are announcing that we will NOT be offering Kava or any of its related offerings at any point in the future.</h6>
@@ -124,10 +121,6 @@ class CosmosStakingBlog extends Component {
                                     </div>
 
                                     {/* comments */}
-
-
-
-
 
                                 </div>
                             </Col>

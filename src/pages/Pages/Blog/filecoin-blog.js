@@ -1,6 +1,7 @@
 // React Basic and Bootstrap
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import MetaTags from 'react-meta-tags';
 import { Container, Row, Col, Alert, Form, FormGroup, Label, Button, Input } from 'reactstrap';
 
 //Import components
@@ -53,7 +54,7 @@ class CosmosStakingBlog extends Component {
     scrollNavigation = () => {
         var doc = document.documentElement;
         var top = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
-        if (top > 80) {
+        if (top > 40) {
             document.getElementById('topnav').classList.add('nav-sticky');
         }
         else {
@@ -65,6 +66,11 @@ class CosmosStakingBlog extends Component {
 
         return (
             <React.Fragment>
+                <MetaTags>
+                    <title>Read Before Mining Filecoin</title>
+                    <meta name="description" content="Read before mining filecoin." />
+                    <meta name="keywords" content="Staking, filecoin, mining, blockchain, pos, proof of stake, crypto, stake, tokens, crypto, tokenweb, validator" />
+                </MetaTags>
                 {/* breadcrumb */}
                 <PageBreadcrumb pathItems = {this.state.pathItems}>
                     <h2>Read Before Mining Filecoin</h2>
@@ -76,11 +82,11 @@ class CosmosStakingBlog extends Component {
                         <Row>
                             <Col lg="12" md="12">
                                 <div className="mr-lg-3">
-                                    <div className="blog position-relative overflow-hidden shadow rounded">
+                                    <div className="blog-single position-relative">
                                         <div className="position-relative">
                                             <img src={filecoin} className="img-fluid rounded-top" alt=""/>
                                         </div>
-                                        <div className="content p-4">
+                                        <div className="content pb-4 pt-4">
 
                                             <h6 className="mt-3">Background:</h6>
                                             <p>At TokenWeb we offer a variety of hosted Filecoin mining and related services due to demand from our clients.</p>

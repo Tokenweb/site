@@ -31,7 +31,7 @@ class Cosmos extends Component {
     scrollNavigation = () => {
         var doc = document.documentElement;
         var top = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
-        if (top > 80) {
+        if (top > 40) {
             document.getElementById('topnav').classList.add('nav-sticky');
         }
         else {
@@ -52,7 +52,7 @@ class Cosmos extends Component {
                 </PageBreadcrumb>
 
 
-                <section className="section">
+                <section className="section-default section-cosmos">
                     <Container>
                         <Row>
                             <Col lg="4" md="5" xs="12">

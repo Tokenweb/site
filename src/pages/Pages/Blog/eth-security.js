@@ -1,6 +1,7 @@
 // React Basic and Bootstrap
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import MetaTags from 'react-meta-tags';
 import { Container, Row, Col, Alert, Form, FormGroup, Label, Button, Input } from 'reactstrap';
 
 //Import components
@@ -20,11 +21,7 @@ class EthSecurity extends Component {
         this.state = {
             pathItems : [
                 //id must required
-
-
             ],
-
-
             successMsg : false
         }
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -47,7 +44,7 @@ class EthSecurity extends Component {
     scrollNavigation = () => {
         var doc = document.documentElement;
         var top = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
-        if (top > 80) {
+        if (top > 40) {
             document.getElementById('topnav').classList.add('nav-sticky');
         }
         else {
@@ -59,6 +56,11 @@ class EthSecurity extends Component {
 
         return (
             <React.Fragment>
+                <MetaTags>
+                    <title>DeFi's Impact on Ethereum 2.0 Security</title>
+                    <meta name="description" content="Will DeFi yields have an impact on the security of Ethereum2.0?" />
+                    <meta name="keywords" content="Staking, Ethereum, defi, eth2, eth, blockchain, pos, proof of stake, crypto, stake, tokens, crypto, tokenweb, validator" />
+                </MetaTags>
                 {/* breadcrumb */}
                 <PageBreadcrumb pathItems = {this.state.pathItems}>
                     <h2>DeFi's Impact on Ethereum 2.0 Security</h2>
@@ -70,11 +72,11 @@ class EthSecurity extends Component {
                         <Row>
                             <Col lg="12" md="12">
                                 <div className="mr-lg-3">
-                                    <div className="blog position-relative overflow-hidden shadow rounded">
+                                    <div className="blog-single position-relative">
                                         <div className="position-relative">
                                             <img src={eth} className="img-fluid rounded-top" alt=""/>
                                         </div>
-                                        <div className="content p-4">
+                                        <div className="content pt-4 pb-4">
 
                                             <p className="text-muted">*This article assumes you have a basic understanding of DeFi, yield farming, and proof of stake.</p>
                                             <p>A hotly debated topic across not just Ethereum but most proof of stake ecosystems is the impact of DeFi protocol yields i.e liquidity mining and other forms of yield farming, on the security of PoS (proof of stake) networks such as ETH2, Cosmos, and Polkadot.</p>

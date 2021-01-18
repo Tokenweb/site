@@ -14,18 +14,20 @@ class PageBreadcrumb extends Component {
                                 <div className="page-next-level">
                                     { this.props.title ? <h4 className="title"> {this.props.title}</h4> : null }
                                     { this.props.children ? this.props.children : null }
-                                    <ul className="page-next d-inline-block bg-white shadow p-2 pl-4 pr-4 rounded mb-0">
-                                        {
-                                            this.props.pathItems.map((item, key) =>
-                                                item.id !== length
-                                                ? <li key={key}><Link to={item.link} className="text-uppercase font-weight-bold text-dark">{item.name}</Link></li>
-                                                : <li key={key}>
-                                                    <span className="text-uppercase text-primary font-weight-bold">{item.name}</span>
-                                                  </li>
-                                            )
-                                        }
+                                    { length !== 0 && (
+                                        <ul className="page-next d-inline-block bg-white shadow p-2 pl-4 pr-4 rounded mb-0">
+                                            {
+                                                this.props.pathItems.map((item, key) =>
+                                                    item.id !== length
+                                                    ? <li key={key}><Link to={item.link} className="text-uppercase font-weight-bold text-dark">{item.name}</Link></li>
+                                                    : <li key={key}>
+                                                        <span className="text-uppercase text-primary font-weight-bold">{item.name}</span>
+                                                    </li>
+                                                )
+                                            }
 
-                                    </ul>
+                                        </ul>
+                                    )}   
                                 </div>
                             </Col>
                         </Row>

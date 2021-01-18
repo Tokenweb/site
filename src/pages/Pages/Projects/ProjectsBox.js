@@ -2,33 +2,25 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Col } from "reactstrap";
 
-class ProcessBox extends Component {
+class ProjectsBox extends Component {
   render() {
     return (
       <React.Fragment>
         {this.props.data.map((process, key) => (
-          <Col md="6" xs="12" key={key} className="mt-4 pt-2">
-            <div className="text-center">
-              <div className="rounded p-4 shadow">
-                <Link to={process.link}>
-                  <img
-                    src={process.icon}
-                    height="100"
-                    className="mx-auto d-block"
-                    alt=""
-                  />
-                </Link>
+          <Col lg="6" xs="12" key={key} className="project">
+            <a href={process.link} target="_blank" rel="noopener noreferrer">
+              <div className="project-box">
+                <div className="project-box-img-holder">
+                    <img
+                      src={process.icon}
+                      className="project-box-img"
+                      alt="project pic"
+                    />
+                </div>
+                <h5 className="project-box-title">{process.title}</h5>
+                <p className="project-box-text">{process.desc}</p>
               </div>
-
-              <div className="mt-3">
-                <h5>
-                  <Link to={process.link} className="text-primary">
-                    {process.title}
-                  </Link>
-                </h5>
-                <p className="text-muted mb-0">{process.desc}</p>
-              </div>
-            </div>
+            </a>
           </Col>
         ))}
       </React.Fragment>
@@ -36,4 +28,4 @@ class ProcessBox extends Component {
   }
 }
 
-export default ProcessBox;
+export default ProjectsBox;

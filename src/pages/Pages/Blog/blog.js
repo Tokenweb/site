@@ -59,7 +59,7 @@ class Blog extends Component {
     scrollNavigation = () => {
         var doc = document.documentElement;
         var top = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
-        if (top > 80) {
+        if (top > 40) {
             document.getElementById('topnav').classList.add('nav-sticky');
         }
         else {
@@ -75,21 +75,11 @@ class Blog extends Component {
                 {/* breadcrumb */}
 
 
-                <section className="section">
+                <section className="section-default">
                     <Container>
                         <Row>
                             {/* blog box */}
                             <BlogBox blogs={this.state.blogs} />
-
-                            <Col xs="12">
-                                    {/*    <Pagination className="pagination justify-content-center mb-0 list-unstyled">
-                                            <PaginationItem><PaginationLink href="#" className="pr-3 pl-3 pt-2 pb-2">Prev</PaginationLink></PaginationItem>
-                                            <PaginationItem active><PaginationLink href="#" className="pr-3 pl-3 pt-2 pb-2">1</PaginationLink></PaginationItem>
-                                            <PaginationItem><PaginationLink href="#" className="pr-3 pl-3 pt-2 pb-2">2</PaginationLink></PaginationItem>
-                                            <PaginationItem><PaginationLink href="#" className="pr-3 pl-3 pt-2 pb-2">3</PaginationLink></PaginationItem>
-                                            <PaginationItem><PaginationLink href="#" className="pr-3 pl-3 pt-2 pb-2">Next</PaginationLink></PaginationItem>
-                                        </Pagination> */}
-                            </Col>
                         </Row>
                     </Container>
                 </section>

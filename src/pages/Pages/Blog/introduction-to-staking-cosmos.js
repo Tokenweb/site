@@ -1,6 +1,7 @@
 // React Basic and Bootstrap
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import MetaTags from 'react-meta-tags';
 import { Container, Row, Col, Alert, Form, FormGroup, Label, Button, Input } from 'reactstrap';
 
 //Import components
@@ -26,10 +27,7 @@ class CosmosStakingBlog extends Component {
             pathItems : [
                 //id must required
                 { id : 1, name : "By Margarethe", link : "#" },
-
             ],
-
-
             successMsg : false
         }
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -52,7 +50,7 @@ class CosmosStakingBlog extends Component {
     scrollNavigation = () => {
         var doc = document.documentElement;
         var top = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
-        if (top > 80) {
+        if (top > 40) {
             document.getElementById('topnav').classList.add('nav-sticky');
         }
         else {
@@ -64,22 +62,25 @@ class CosmosStakingBlog extends Component {
 
         return (
             <React.Fragment>
+                <MetaTags>
+                    <title>Introduction to Staking Cosmos</title>
+                    <meta name="description" content="Learn everything you need to know to get started earning ATOMs by staking on Cosmos Network." />
+                    <meta name="keywords" content="Staking, cosmos, blockchain, pos, proof of stake, crypto, stake, tokens, crypto, tokenweb, validator" />
+                </MetaTags>
                 {/* breadcrumb */}
                 <PageBreadcrumb pathItems = {this.state.pathItems}>
-                    <h2> Introduction to Staking Cosmos </h2>
-
+                    <h2>Introduction to Staking Cosmos</h2>
                 </PageBreadcrumb>
-
                 <section className="section">
                     <Container>
                         <Row>
                             <Col lg="12" md="12">
                                 <div className="mr-lg-3">
-                                    <div className="blog position-relative overflow-hidden shadow rounded">
+                                    <div className="blog-single position-relative">
                                         <div className="position-relative">
                                             <img src={cosmosbg} className="img-fluid rounded-top" alt=""/>
                                         </div>
-                                        <div className="content p-4">
+                                        <div className="content pt-4 pb-4">
                                             <h6>Get Started with Staking</h6>
                                             <p className="text-muted mt-3">There are new ways to make money in 2020, combining new technology and investments, called staking. You can use this for yourself, too! The following article explains what is is, and how you can do it easily.</p>
                                             <h6>What is staking?</h6>
@@ -93,7 +94,7 @@ class CosmosStakingBlog extends Component {
                                             <h7 className="text-muted blogStep">Part 1: Setup of the Ledger</h7>
                                             <p className="text-muted">The initial setup requires a tiny bit of preparation, mainly getting the tokens and a storage device ready. It is a great investment though, as you can use the same storage device for other kind of tokens than CØSMOS. </p>
                                             <p className="text-muted">If you do not have a Ledger Nano you can buy one <a href="https://shop.ledger.com/products/ledger-nano-s" target="_blank">here</a>.</p>
-                                            <p className="text-muted">Once you have your Ledger Hardware Wallet, you begin the setup by plugging the device into your computer, setting your custom PIN code and taking a note of the seed phrase, which you have to keep a secret. If you ever lose the USB-sized Ledger Nano, you can recover your tokens with another device and your seed phrase. So, never lose the seed phrase.</p>
+                                            <p className="text-muted">Once you have your Ledger Hardware Wallet, you begin the setup by plugging the device into your computer, setting your custom PIN code and taking a note of the seed phrase, which you have to keep a secret.If you ever lose the USB-sized Ledger Nano, you can recover your tokens with another device and your seed phrase. So, never lose the seed phrase.</p>
                                             <p className="text-muted">Next, go to Ledger.com, download the Ledger Live desktop application and create an account.</p>
                                             <p className="text-muted">Then connect your Ledger Nano with Ledger Live. You will need your PIN code for this. Keep your Ledger Nano connected to your computer and follow the instructions on both the device and Ledger Live.</p>
                                             <p className="text-muted">Now you will install the CØSMOS application on your Ledger Wallet, using Ledger Live. The Ledger Nano device arrives empty. You need to install an app for every crypto currency. Since we want to stake CØSMOS, within Ledger Live search the App “CØSMOS” and click install.

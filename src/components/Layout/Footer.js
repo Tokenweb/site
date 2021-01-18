@@ -34,8 +34,6 @@ class Footer extends Component {
         <footer className={this.props.isLight ? "footer bg-light" : "footer"}>
             <Container>
                 <Row>
-
-
                     <Col lg="4" md="4" xs="12" className="mt-4 mt-sm-0 pt-2 pt-sm-0" name="footercolumn">
                         <h4 className={this.props.isLight ? "text-dark footer-head" : "text-light footer-head"}>Get Started</h4>
                         <ul className="list-unstyled footer-list mt-4">
@@ -60,7 +58,7 @@ class Footer extends Component {
 
                     <Col lg="4" xs="12" className="mb-0 mb-md-4 pb-0 pb-md-2" name="footercolumn">
                         <Link className={this.props.isLight ? "logo-footer text-dark" : "logo-footer"} to="/">TokenWeb</Link>
-                        <p className={ this.props.isLight ? "mt-4 text-muted" : "mt-4"}>Our mission is to support transformative technologies.</p>
+                        <p className={ this.props.isLight ? "mt-4 mb-2 mt-sm-0 text-muted" : "mt-4 mt-sm-0 mb-2"}>Our mission is to support transformative technologies.</p>
                         <Row>
 
                             <Col lg="8">

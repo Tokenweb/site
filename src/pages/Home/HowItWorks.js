@@ -4,8 +4,8 @@ import { Container, Row, Col, Alert, Form, FormGroup, Input, Button, Label } fro
 import { Link } from 'react-router-dom';
 
 //Import Components
-import SectionTitle from "../../components/Shared/section-title";
-import SectionTitleLeft from "../../components/Shared/section-title-left";
+import SectionTitle from "../../components/Shared/section/title/section-title";
+import SectionTitleLeft from "../../components/Shared/section/title/section-title-left";
 
 // Import Images
 import seoSVG from '../../images/illustrator/SEO_SVG.svg';

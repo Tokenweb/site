@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Container, Row, Col, Form, Alert, Input, FormGroup, Label } from "reactstrap";
 
 //Import Components
-import SectionTitle from "../../components/Shared/section-title";
+import SectionTitle from "../../components/Shared/section/title/section-title";
 
 class PricingAndPayment extends Component {
     constructor(props) {
