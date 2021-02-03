@@ -11,7 +11,7 @@ class Footer extends Component {
     this.state = {
         grid1 : [
             { title : "Stake Tokens", link : "./staking-portal" },
-            { title : "Submit a Project", link : "./filecoin" },
+            { title : "Submit a Project", link : "./projects" },
 
 
 
@@ -76,7 +76,7 @@ class Footer extends Component {
                 <Row className="align-items-center">
                     <Col sm="6">
                         <div className="text-sm-left">
-                            <p className="mb-0">© 2020 TokenWeb</p>
+                            <p className="mb-0">© 2021 TokenWeb</p>
                         </div>
                     </Col>
 
